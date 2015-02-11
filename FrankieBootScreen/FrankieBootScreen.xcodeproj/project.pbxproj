@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D51A8B55BC008C7BF3 /* main.m */; };
+		EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */; };
+		EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */; };
+		EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */; };
+		EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */; };
+		EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */; };
+		EF6C69F01A8B55BC008C7BF3 /* FrankieBootScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */; };
+		EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6C69EA1A8B55BC008C7BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6C69C81A8B55BC008C7BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6C69CF1A8B55BC008C7BF3;
+			remoteInfo = FrankieBootScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieBootScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6C69D41A8B55BC008C7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6C69D51A8B55BC008C7BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6C69D71A8B55BC008C7BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF6C69DA1A8B55BC008C7BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF6C69DE1A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF6C69E31A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF6C69E91A8B55BC008C7BF3 /* FrankieBootScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankieBootScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6C69EE1A8B55BC008C7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrankieBootScreenTests.m; sourceTree = "<group>"; };
+		EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
+		EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6C69CD1A8B55BC008C7BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6C69E61A8B55BC008C7BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6C69C71A8B55BC008C7BF3 = {
+			isa = PBXGroup;
+			children = (
+				EF6C69D21A8B55BC008C7BF3 /* FrankieBootScreen */,
+				EF6C69EC1A8B55BC008C7BF3 /* FrankieBootScreenTests */,
+				EF6C69D11A8B55BC008C7BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6C69D11A8B55BC008C7BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */,
+				EF6C69E91A8B55BC008C7BF3 /* FrankieBootScreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6C69D21A8B55BC008C7BF3 /* FrankieBootScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C69D71A8B55BC008C7BF3 /* AppDelegate.h */,
+				EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */,
+				EF6C69DA1A8B55BC008C7BF3 /* ViewController.h */,
+				EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */,
+				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
+				EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */,
+				EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */,
+				EF6C69D31A8B55BC008C7BF3 /* Supporting Files */,
+				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
+				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
+			);
+			path = FrankieBootScreen;
+			sourceTree = "<group>";
+		};
+		EF6C69D31A8B55BC008C7BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C69D41A8B55BC008C7BF3 /* Info.plist */,
+				EF6C69D51A8B55BC008C7BF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF6C69EC1A8B55BC008C7BF3 /* FrankieBootScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */,
+				EF6C69ED1A8B55BC008C7BF3 /* Supporting Files */,
+			);
+			path = FrankieBootScreenTests;
+			sourceTree = "<group>";
+		};
+		EF6C69ED1A8B55BC008C7BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6C69EE1A8B55BC008C7BF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6C69CF1A8B55BC008C7BF3 /* FrankieBootScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6C69F31A8B55BC008C7BF3 /* Build configuration list for PBXNativeTarget "FrankieBootScreen" */;
+			buildPhases = (
+				EF6C69CC1A8B55BC008C7BF3 /* Sources */,
+				EF6C69CD1A8B55BC008C7BF3 /* Frameworks */,
+				EF6C69CE1A8B55BC008C7BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrankieBootScreen;
+			productName = FrankieBootScreen;
+			productReference = EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6C69E81A8B55BC008C7BF3 /* FrankieBootScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6C69F61A8B55BC008C7BF3 /* Build configuration list for PBXNativeTarget "FrankieBootScreenTests" */;
+			buildPhases = (
+				EF6C69E51A8B55BC008C7BF3 /* Sources */,
+				EF6C69E61A8B55BC008C7BF3 /* Frameworks */,
+				EF6C69E71A8B55BC008C7BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6C69EB1A8B55BC008C7BF3 /* PBXTargetDependency */,
+			);
+			name = FrankieBootScreenTests;
+			productName = FrankieBootScreenTests;
+			productReference = EF6C69E91A8B55BC008C7BF3 /* FrankieBootScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6C69C81A8B55BC008C7BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Frankie;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Frankenstein Yang";
+				TargetAttributes = {
+					EF6C69CF1A8B55BC008C7BF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF6C69E81A8B55BC008C7BF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF6C69CF1A8B55BC008C7BF3;
+					};
+				};
+			};
+			buildConfigurationList = EF6C69CB1A8B55BC008C7BF3 /* Build configuration list for PBXProject "FrankieBootScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6C69C71A8B55BC008C7BF3;
+			productRefGroup = EF6C69D11A8B55BC008C7BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6C69CF1A8B55BC008C7BF3 /* FrankieBootScreen */,
+				EF6C69E81A8B55BC008C7BF3 /* FrankieBootScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6C69CE1A8B55BC008C7BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */,
+				EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */,
+				EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6C69E71A8B55BC008C7BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6C69CC1A8B55BC008C7BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */,
+				EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */,
+				EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */,
+				EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6C69E51A8B55BC008C7BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6C69F01A8B55BC008C7BF3 /* FrankieBootScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6C69EB1A8B55BC008C7BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6C69CF1A8B55BC008C7BF3 /* FrankieBootScreen */;
+			targetProxy = EF6C69EA1A8B55BC008C7BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6C69DE1A8B55BC008C7BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6C69E31A8B55BC008C7BF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6C69F11A8B55BC008C7BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF6C69F21A8B55BC008C7BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6C69F41A8B55BC008C7BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrankieBootScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF6C69F51A8B55BC008C7BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FrankieBootScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF6C69F71A8B55BC008C7BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrankieBootScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrankieBootScreen.app/FrankieBootScreen";
+			};
+			name = Debug;
+		};
+		EF6C69F81A8B55BC008C7BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FrankieBootScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrankieBootScreen.app/FrankieBootScreen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6C69CB1A8B55BC008C7BF3 /* Build configuration list for PBXProject "FrankieBootScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6C69F11A8B55BC008C7BF3 /* Debug */,
+				EF6C69F21A8B55BC008C7BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6C69F31A8B55BC008C7BF3 /* Build configuration list for PBXNativeTarget "FrankieBootScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6C69F41A8B55BC008C7BF3 /* Debug */,
+				EF6C69F51A8B55BC008C7BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF6C69F61A8B55BC008C7BF3 /* Build configuration list for PBXNativeTarget "FrankieBootScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6C69F71A8B55BC008C7BF3 /* Debug */,
+				EF6C69F81A8B55BC008C7BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6C69C81A8B55BC008C7BF3 /* Project object */;
+}
