@@ -43,7 +43,6 @@
 - (void)playVideo {
 
     NSString *urlString = [[NSBundle mainBundle] pathForResource:@"Awolnation-Sail" ofType:@"mp4"];
-    NSLog(@"%@", urlString);
     NSURL *mediaURL = [NSURL fileURLWithPath:urlString];
     playerViewController = [[MPMoviePlayerViewController alloc] initWithContentURL:mediaURL];
     playerViewController.moviePlayer.repeatMode = MPMovieRepeatModeOne;
