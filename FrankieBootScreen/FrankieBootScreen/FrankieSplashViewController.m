@@ -7,11 +7,11 @@
 //
 
 #import "FrankieSplashViewController.h"
-#import "FrankieMoviePlayerViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface FrankieSplashViewController () {
     
-    FrankieMoviePlayerViewController *playerViewController;
+    MPMoviePlayerViewController *playerViewController;
 
 }
 @end
@@ -42,7 +42,11 @@
 
     NSString *urlString = [[NSBundle mainBundle] pathForResource:@"Awolnation-Sail" ofType:@"mp4"];
     NSURL *mediaURL = [NSURL fileURLWithPath:urlString];
-//    playerViewController = [[FrankieMoviePlayerViewController alloc] ];
+    playerViewController = [[MPMoviePlayerViewController alloc] initWithContentURL:mediaURL];
+    playerViewController.moviePlayer.repeatMode = MPMovieRepeatModeOne;
+    // 登录状态判断
+    playerViewController.view.frame = self.view.frame;
+    [self.view addSubview:playerViewController.view];
     
     
 }

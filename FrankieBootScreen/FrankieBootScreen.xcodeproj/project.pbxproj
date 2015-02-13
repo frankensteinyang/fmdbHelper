@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF47E9451A8DDBEE004D8200 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */; };
 		EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D51A8B55BC008C7BF3 /* main.m */; };
 		EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */; };
 		EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		EF6C69F01A8B55BC008C7BF3 /* FrankieBootScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */; };
 		EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */; };
 		EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */; };
-		EF7764421A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7764411A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieBootScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6C69D41A8B55BC008C7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6C69D51A8B55BC008C7BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,8 +47,6 @@
 		EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
 		EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
 		EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
-		EF7764401A8DADE0004EAE18 /* FrankieMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMoviePlayerViewController.h; sourceTree = "<group>"; };
-		EF7764411A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieMoviePlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF47E9451A8DDBEE004D8200 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +71,7 @@
 		EF6C69C71A8B55BC008C7BF3 = {
 			isa = PBXGroup;
 			children = (
+				EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */,
 				EF6C69D21A8B55BC008C7BF3 /* FrankieBootScreen */,
 				EF6C69EC1A8B55BC008C7BF3 /* FrankieBootScreenTests */,
 				EF6C69D11A8B55BC008C7BF3 /* Products */,
@@ -95,8 +96,6 @@
 				EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */,
 				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
 				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
-				EF7764401A8DADE0004EAE18 /* FrankieMoviePlayerViewController.h */,
-				EF7764411A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m */,
 				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
 				EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */,
 				EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */,
@@ -236,7 +235,6 @@
 			files = (
 				EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */,
 				EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */,
-				EF7764421A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m in Sources */,
 				EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */,
 				EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */,
 			);
