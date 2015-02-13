@@ -7,9 +7,13 @@
 //
 
 #import "FrankieSplashViewController.h"
+#import "FrankieMoviePlayerViewController.h"
 
-@interface FrankieSplashViewController ()
+@interface FrankieSplashViewController () {
+    
+    FrankieMoviePlayerViewController *playerViewController;
 
+}
 @end
 
 @implementation FrankieSplashViewController
@@ -33,5 +37,14 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)playVideo {
+
+    NSString *urlString = [[NSBundle mainBundle] pathForResource:@"Awolnation-Sail" ofType:@"mp4"];
+    NSURL *mediaURL = [NSURL fileURLWithPath:urlString];
+//    playerViewController = [[FrankieMoviePlayerViewController alloc] ];
+    
+    
+}
 
 @end

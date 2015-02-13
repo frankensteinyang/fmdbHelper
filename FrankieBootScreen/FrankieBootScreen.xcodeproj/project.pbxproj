@@ -15,6 +15,8 @@
 		EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */; };
 		EF6C69F01A8B55BC008C7BF3 /* FrankieBootScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */; };
 		EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */; };
+		EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */; };
+		EF7764421A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7764411A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrankieBootScreenTests.m; sourceTree = "<group>"; };
 		EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
 		EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
+		EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
+		EF7764401A8DADE0004EAE18 /* FrankieMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMoviePlayerViewController.h; sourceTree = "<group>"; };
+		EF7764411A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieMoviePlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +93,14 @@
 				EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */,
 				EF6C69DA1A8B55BC008C7BF3 /* ViewController.h */,
 				EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */,
+				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
+				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
+				EF7764401A8DADE0004EAE18 /* FrankieMoviePlayerViewController.h */,
+				EF7764411A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m */,
 				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
 				EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */,
 				EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */,
 				EF6C69D31A8B55BC008C7BF3 /* Supporting Files */,
-				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
-				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
 			);
 			path = FrankieBootScreen;
 			sourceTree = "<group>";
@@ -101,6 +108,7 @@
 		EF6C69D31A8B55BC008C7BF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */,
 				EF6C69D41A8B55BC008C7BF3 /* Info.plist */,
 				EF6C69D51A8B55BC008C7BF3 /* main.m */,
 			);
@@ -205,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */,
 				EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */,
 				EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */,
 				EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */,
@@ -227,6 +236,7 @@
 			files = (
 				EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */,
 				EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */,
+				EF7764421A8DADE0004EAE18 /* FrankieMoviePlayerViewController.m in Sources */,
 				EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */,
 				EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */,
 			);
@@ -419,6 +429,7 @@
 				EF6C69F51A8B55BC008C7BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF6C69F61A8B55BC008C7BF3 /* Build configuration list for PBXNativeTarget "FrankieBootScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +438,7 @@
 				EF6C69F81A8B55BC008C7BF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
