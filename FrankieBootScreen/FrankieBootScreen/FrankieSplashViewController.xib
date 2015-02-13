@@ -16,7 +16,7 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="338" y="366"/>
+            <point key="canvasLocation" x="347" y="-324"/>
         </view>
     </objects>
 </document>

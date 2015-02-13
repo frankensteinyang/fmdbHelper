@@ -50,9 +50,10 @@
     playerViewController.view.frame = self.view.frame;
     [self.view addSubview:playerViewController.view];
     [self.view sendSubviewToBack:playerViewController.view];
-    
+    playerViewController.moviePlayer.controlStyle = MPMovieControlStyleNone;
     playerViewController.moviePlayer.shouldAutoplay = YES;
     [playerViewController.moviePlayer setFullscreen:YES animated:NO];
+    playerViewController.moviePlayer.scalingMode = MPMovieScalingModeAspectFill;
     [playerViewController.moviePlayer play];
     
 }
