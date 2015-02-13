@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EF47E9451A8DDBEE004D8200 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */; };
+		EF47E9481A8DE5C6004D8200 /* FrankieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47E9471A8DE5C6004D8200 /* FrankieAppDelegate.m */; };
 		EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D51A8B55BC008C7BF3 /* main.m */; };
-		EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */; };
-		EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */; };
 		EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */; };
 		EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */; };
 		EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */; };
@@ -31,13 +30,11 @@
 
 /* Begin PBXFileReference section */
 		EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EF47E9461A8DE5C6004D8200 /* FrankieAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAppDelegate.h; sourceTree = "<group>"; };
+		EF47E9471A8DE5C6004D8200 /* FrankieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAppDelegate.m; sourceTree = "<group>"; };
 		EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieBootScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6C69D41A8B55BC008C7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6C69D51A8B55BC008C7BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF6C69D71A8B55BC008C7BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF6C69DA1A8B55BC008C7BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF6C69DE1A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF6C69E31A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -90,10 +87,8 @@
 		EF6C69D21A8B55BC008C7BF3 /* FrankieBootScreen */ = {
 			isa = PBXGroup;
 			children = (
-				EF6C69D71A8B55BC008C7BF3 /* AppDelegate.h */,
-				EF6C69D81A8B55BC008C7BF3 /* AppDelegate.m */,
-				EF6C69DA1A8B55BC008C7BF3 /* ViewController.h */,
-				EF6C69DB1A8B55BC008C7BF3 /* ViewController.m */,
+				EF47E9461A8DE5C6004D8200 /* FrankieAppDelegate.h */,
+				EF47E9471A8DE5C6004D8200 /* FrankieAppDelegate.m */,
 				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
 				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
 				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
@@ -233,8 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6C69DC1A8B55BC008C7BF3 /* ViewController.m in Sources */,
-				EF6C69D91A8B55BC008C7BF3 /* AppDelegate.m in Sources */,
+				EF47E9481A8DE5C6004D8200 /* FrankieAppDelegate.m in Sources */,
 				EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */,
 				EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */,
 			);
