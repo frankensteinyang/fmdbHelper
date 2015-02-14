@@ -17,6 +17,7 @@
 		EF6C69F01A8B55BC008C7BF3 /* FrankieBootScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */; };
 		EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */; };
 		EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */; };
+		EF98958E1A8FA50C000B7E95 /* FrankieRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
 		EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
 		EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
+		EF98958C1A8FA50C000B7E95 /* FrankieRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieRootNavigationController.h; sourceTree = "<group>"; };
+		EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieRootNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
 				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
 				EF61E7E01A8DF5A100E4D513 /* FrankieSplashViewController.xib */,
+				EF98958C1A8FA50C000B7E95 /* FrankieRootNavigationController.h */,
+				EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */,
 				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
 				EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */,
 				EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */,
@@ -232,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF98958E1A8FA50C000B7E95 /* FrankieRootNavigationController.m in Sources */,
 				EF47E9481A8DE5C6004D8200 /* FrankieAppDelegate.m in Sources */,
 				EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */,
 				EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */,
