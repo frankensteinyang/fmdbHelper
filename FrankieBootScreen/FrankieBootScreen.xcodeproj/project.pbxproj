@@ -18,6 +18,7 @@
 		EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */; };
 		EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */; };
 		EF98958E1A8FA50C000B7E95 /* FrankieRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */; };
+		EFBE84C01A90F4BB00672D31 /* SpringFestival.png in Resources */ = {isa = PBXBuildFile; fileRef = EFBE84BF1A90F4BB00672D31 /* SpringFestival.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
 		EF98958C1A8FA50C000B7E95 /* FrankieRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieRootNavigationController.h; sourceTree = "<group>"; };
 		EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieRootNavigationController.m; sourceTree = "<group>"; };
+		EFBE84BF1A90F4BB00672D31 /* SpringFestival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpringFestival.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		EF6C69D31A8B55BC008C7BF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFBE84BF1A90F4BB00672D31 /* SpringFestival.png */,
 				EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */,
 				EF6C69D41A8B55BC008C7BF3 /* Info.plist */,
 				EF6C69D51A8B55BC008C7BF3 /* main.m */,
@@ -219,6 +222,7 @@
 				EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */,
 				EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */,
 				EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */,
+				EFBE84C01A90F4BB00672D31 /* SpringFestival.png in Resources */,
 				EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
