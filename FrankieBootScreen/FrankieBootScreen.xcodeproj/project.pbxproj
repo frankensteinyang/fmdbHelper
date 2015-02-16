@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		EF47E9451A8DDBEE004D8200 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */; };
-		EF47E9481A8DE5C6004D8200 /* FrankieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47E9471A8DE5C6004D8200 /* FrankieAppDelegate.m */; };
-		EF61E7E11A8DF5A100E4D513 /* FrankieSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF61E7E01A8DF5A100E4D513 /* FrankieSplashViewController.xib */; };
-		EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69D51A8B55BC008C7BF3 /* main.m */; };
 		EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */; };
 		EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */; };
 		EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */; };
 		EF6C69F01A8B55BC008C7BF3 /* FrankieBootScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */; };
-		EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */; };
-		EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */; };
-		EF98958E1A8FA50C000B7E95 /* FrankieRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */; };
-		EFBE84C01A90F4BB00672D31 /* SpringFestival.png in Resources */ = {isa = PBXBuildFile; fileRef = EFBE84BF1A90F4BB00672D31 /* SpringFestival.png */; };
+		EF83FD6C1A924168002731D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF83FD6A1A924168002731D9 /* Info.plist */; };
+		EF83FD6D1A924168002731D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83FD6B1A924168002731D9 /* main.m */; };
+		EF83FD701A924180002731D9 /* Awolnation-Sail.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF83FD6E1A924180002731D9 /* Awolnation-Sail.mp4 */; };
+		EF83FD711A924180002731D9 /* SpringFestival.png in Resources */ = {isa = PBXBuildFile; fileRef = EF83FD6F1A924180002731D9 /* SpringFestival.png */; };
+		EFBE84CB1A91CC3E00672D31 /* FrankieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE84C51A91CC3E00672D31 /* FrankieAppDelegate.m */; };
+		EFBE84CC1A91CC3E00672D31 /* FrankieRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE84C71A91CC3E00672D31 /* FrankieRootNavigationController.m */; };
+		EFBE84CD1A91CC3E00672D31 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */; };
+		EFBE84CE1A91CC3E00672D31 /* FrankieSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,24 +34,24 @@
 
 /* Begin PBXFileReference section */
 		EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		EF47E9461A8DE5C6004D8200 /* FrankieAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAppDelegate.h; sourceTree = "<group>"; };
-		EF47E9471A8DE5C6004D8200 /* FrankieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAppDelegate.m; sourceTree = "<group>"; };
-		EF61E7E01A8DF5A100E4D513 /* FrankieSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrankieSplashViewController.xib; sourceTree = "<group>"; };
 		EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieBootScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF6C69D41A8B55BC008C7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF6C69D51A8B55BC008C7BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF6C69DE1A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		EF6C69E31A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF6C69E91A8B55BC008C7BF3 /* FrankieBootScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankieBootScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6C69EE1A8B55BC008C7BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6C69EF1A8B55BC008C7BF3 /* FrankieBootScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrankieBootScreenTests.m; sourceTree = "<group>"; };
-		EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
-		EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
-		EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
-		EF98958C1A8FA50C000B7E95 /* FrankieRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieRootNavigationController.h; sourceTree = "<group>"; };
-		EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieRootNavigationController.m; sourceTree = "<group>"; };
-		EFBE84BF1A90F4BB00672D31 /* SpringFestival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpringFestival.png; sourceTree = "<group>"; };
+		EF83FD6A1A924168002731D9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF83FD6B1A924168002731D9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF83FD6E1A924180002731D9 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
+		EF83FD6F1A924180002731D9 /* SpringFestival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpringFestival.png; sourceTree = "<group>"; };
+		EFBE84C41A91CC3E00672D31 /* FrankieAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAppDelegate.h; sourceTree = "<group>"; };
+		EFBE84C51A91CC3E00672D31 /* FrankieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAppDelegate.m; sourceTree = "<group>"; };
+		EFBE84C61A91CC3E00672D31 /* FrankieRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieRootNavigationController.h; sourceTree = "<group>"; };
+		EFBE84C71A91CC3E00672D31 /* FrankieRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieRootNavigationController.m; sourceTree = "<group>"; };
+		EFBE84C81A91CC3E00672D31 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
+		EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
+		EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrankieSplashViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +76,6 @@
 		EF6C69C71A8B55BC008C7BF3 = {
 			isa = PBXGroup;
 			children = (
-				EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */,
 				EF6C69D21A8B55BC008C7BF3 /* FrankieBootScreen */,
 				EF6C69EC1A8B55BC008C7BF3 /* FrankieBootScreenTests */,
 				EF6C69D11A8B55BC008C7BF3 /* Products */,
@@ -94,17 +94,9 @@
 		EF6C69D21A8B55BC008C7BF3 /* FrankieBootScreen */ = {
 			isa = PBXGroup;
 			children = (
-				EF47E9461A8DE5C6004D8200 /* FrankieAppDelegate.h */,
-				EF47E9471A8DE5C6004D8200 /* FrankieAppDelegate.m */,
-				EF6C69F91A8B58DA008C7BF3 /* FrankieSplashViewController.h */,
-				EF6C69FA1A8B58DA008C7BF3 /* FrankieSplashViewController.m */,
-				EF61E7E01A8DF5A100E4D513 /* FrankieSplashViewController.xib */,
-				EF98958C1A8FA50C000B7E95 /* FrankieRootNavigationController.h */,
-				EF98958D1A8FA50C000B7E95 /* FrankieRootNavigationController.m */,
-				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
-				EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */,
-				EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */,
-				EF6C69D31A8B55BC008C7BF3 /* Supporting Files */,
+				EF83FD691A9240DC002731D9 /* Resource Files */,
+				EF83FD681A92400D002731D9 /* Other */,
+				EFBE84C11A91CAB300672D31 /* Classes */,
 			);
 			path = FrankieBootScreen;
 			sourceTree = "<group>";
@@ -112,12 +104,9 @@
 		EF6C69D31A8B55BC008C7BF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EFBE84BF1A90F4BB00672D31 /* SpringFestival.png */,
-				EF77643E1A8DAD36004EAE18 /* Awolnation-Sail.mp4 */,
-				EF6C69D41A8B55BC008C7BF3 /* Info.plist */,
-				EF6C69D51A8B55BC008C7BF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EF6C69EC1A8B55BC008C7BF3 /* FrankieBootScreenTests */ = {
@@ -135,6 +124,51 @@
 				EF6C69EE1A8B55BC008C7BF3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF83FD681A92400D002731D9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF83FD6A1A924168002731D9 /* Info.plist */,
+				EF83FD6B1A924168002731D9 /* main.m */,
+				EF6C69D31A8B55BC008C7BF3 /* Supporting Files */,
+				EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */,
+				EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */,
+				EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EF83FD691A9240DC002731D9 /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF83FD6E1A924180002731D9 /* Awolnation-Sail.mp4 */,
+				EF83FD6F1A924180002731D9 /* SpringFestival.png */,
+			);
+			path = "Resource Files";
+			sourceTree = "<group>";
+		};
+		EFBE84C11A91CAB300672D31 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE84C41A91CC3E00672D31 /* FrankieAppDelegate.h */,
+				EFBE84C51A91CC3E00672D31 /* FrankieAppDelegate.m */,
+				EFBE84C61A91CC3E00672D31 /* FrankieRootNavigationController.h */,
+				EFBE84C71A91CC3E00672D31 /* FrankieRootNavigationController.m */,
+				EFBE84C81A91CC3E00672D31 /* FrankieSplashViewController.h */,
+				EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */,
+				EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */,
+				EFBE84C21A91CAEC00672D31 /* Libs */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EFBE84C21A91CAEC00672D31 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,11 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF61E7E11A8DF5A100E4D513 /* FrankieSplashViewController.xib in Resources */,
-				EF77643F1A8DAD36004EAE18 /* Awolnation-Sail.mp4 in Resources */,
 				EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */,
+				EF83FD711A924180002731D9 /* SpringFestival.png in Resources */,
+				EFBE84CE1A91CC3E00672D31 /* FrankieSplashViewController.xib in Resources */,
+				EF83FD701A924180002731D9 /* Awolnation-Sail.mp4 in Resources */,
 				EF6C69E41A8B55BC008C7BF3 /* LaunchScreen.xib in Resources */,
-				EFBE84C01A90F4BB00672D31 /* SpringFestival.png in Resources */,
+				EF83FD6C1A924168002731D9 /* Info.plist in Resources */,
 				EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,10 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF98958E1A8FA50C000B7E95 /* FrankieRootNavigationController.m in Sources */,
-				EF47E9481A8DE5C6004D8200 /* FrankieAppDelegate.m in Sources */,
-				EF6C69FB1A8B58DA008C7BF3 /* FrankieSplashViewController.m in Sources */,
-				EF6C69D61A8B55BC008C7BF3 /* main.m in Sources */,
+				EFBE84CB1A91CC3E00672D31 /* FrankieAppDelegate.m in Sources */,
+				EFBE84CD1A91CC3E00672D31 /* FrankieSplashViewController.m in Sources */,
+				EF83FD6D1A924168002731D9 /* main.m in Sources */,
+				EFBE84CC1A91CC3E00672D31 /* FrankieRootNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +308,7 @@
 				EF6C69DE1A8B55BC008C7BF3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EF6C69E21A8B55BC008C7BF3 /* LaunchScreen.xib */ = {
@@ -281,6 +317,7 @@
 				EF6C69E31A8B55BC008C7BF3 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -366,7 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FrankieBootScreen/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FrankieBootScreen/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -376,7 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FrankieBootScreen/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FrankieBootScreen/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
