@@ -47,6 +47,7 @@
     playerViewController = [[MPMoviePlayerViewController alloc] initWithContentURL:mediaURL];
     playerViewController.moviePlayer.repeatMode = MPMovieRepeatModeOne;
     // 登录状态判断
+    // 
     playerViewController.view.frame = self.view.frame;
     [self.view addSubview:playerViewController.view];
     [self.view sendSubviewToBack:playerViewController.view];
@@ -57,5 +58,12 @@
     [playerViewController.moviePlayer play];
     
 }
+
+- (IBAction)login:(id)sender {
+    
+    
+    
+}
+
 
 @end

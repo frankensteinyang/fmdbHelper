@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF40832C1A9CD3010082AAB1 /* FrankieUILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF40832B1A9CD3010082AAB1 /* FrankieUILoginViewController.m */; };
 		EF47E9451A8DDBEE004D8200 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */; };
 		EF6C69DF1A8B55BC008C7BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69DD1A8B55BC008C7BF3 /* Main.storyboard */; };
 		EF6C69E11A8B55BC008C7BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6C69E01A8B55BC008C7BF3 /* Images.xcassets */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF40832A1A9CD3010082AAB1 /* FrankieUILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieUILoginViewController.h; sourceTree = "<group>"; };
+		EF40832B1A9CD3010082AAB1 /* FrankieUILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieUILoginViewController.m; sourceTree = "<group>"; };
 		EF47E9441A8DDBEE004D8200 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		EF6C69D01A8B55BC008C7BF3 /* FrankieBootScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieBootScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6C69DE1A8B55BC008C7BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				EFBE84C81A91CC3E00672D31 /* FrankieSplashViewController.h */,
 				EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */,
 				EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */,
+				EF40832A1A9CD3010082AAB1 /* FrankieUILoginViewController.h */,
+				EF40832B1A9CD3010082AAB1 /* FrankieUILoginViewController.m */,
 				EFBE84C21A91CAEC00672D31 /* Libs */,
 			);
 			path = Classes;
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBE84CB1A91CC3E00672D31 /* FrankieAppDelegate.m in Sources */,
+				EF40832C1A9CD3010082AAB1 /* FrankieUILoginViewController.m in Sources */,
 				EFBE84CD1A91CC3E00672D31 /* FrankieSplashViewController.m in Sources */,
 				EF83FD6D1A924168002731D9 /* main.m in Sources */,
 				EFBE84CC1A91CC3E00672D31 /* FrankieRootNavigationController.m in Sources */,
