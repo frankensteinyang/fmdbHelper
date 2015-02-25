@@ -48,6 +48,7 @@
 		EF83FD6B1A924168002731D9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF83FD6E1A924180002731D9 /* Awolnation-Sail.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Awolnation-Sail.mp4"; sourceTree = "<group>"; };
 		EF83FD6F1A924180002731D9 /* SpringFestival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpringFestival.png; sourceTree = "<group>"; };
+		EFA228D51A9E26430024310F /* FrankieNoticeCodeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieNoticeCodeDefine.h; sourceTree = "<group>"; };
 		EFBE84C41A91CC3E00672D31 /* FrankieAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAppDelegate.h; sourceTree = "<group>"; };
 		EFBE84C51A91CC3E00672D31 /* FrankieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAppDelegate.m; sourceTree = "<group>"; };
 		EFBE84C61A91CC3E00672D31 /* FrankieRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieRootNavigationController.h; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 				EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */,
 				EF40832A1A9CD3010082AAB1 /* FrankieUILoginViewController.h */,
 				EF40832B1A9CD3010082AAB1 /* FrankieUILoginViewController.m */,
+				EFA228D51A9E26430024310F /* FrankieNoticeCodeDefine.h */,
 				EFBE84C21A91CAEC00672D31 /* Libs */,
 			);
 			path = Classes;
