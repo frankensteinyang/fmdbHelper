@@ -22,6 +22,7 @@
 		EFBE84CD1A91CC3E00672D31 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */; };
 		EFBE84CE1A91CC3E00672D31 /* FrankieSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */; };
 		EFDED49F1A9F05DE00CE4CC1 /* FrankieProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */; };
+		EFDED4A41A9F17E000CE4CC1 /* FrankieNoticeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDED4A31A9F17E000CE4CC1 /* FrankieNoticeBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		EFDED49D1A9F05DE00CE4CC1 /* FrankieProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieProcessManager.h; sourceTree = "<group>"; };
 		EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieProcessManager.m; sourceTree = "<group>"; };
 		EFDED4A11A9F0DE300CE4CC1 /* FrankieBootScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrankieBootScreen-Prefix.pch"; sourceTree = "<group>"; };
+		EFDED4A21A9F17E000CE4CC1 /* FrankieNoticeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieNoticeBase.h; sourceTree = "<group>"; };
+		EFDED4A31A9F17E000CE4CC1 /* FrankieNoticeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieNoticeBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				EFA228D51A9E26430024310F /* FrankieNoticeCodeDefine.h */,
 				EFDED49D1A9F05DE00CE4CC1 /* FrankieProcessManager.h */,
 				EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */,
+				EFDED4A21A9F17E000CE4CC1 /* FrankieNoticeBase.h */,
+				EFDED4A31A9F17E000CE4CC1 /* FrankieNoticeBase.m */,
 				EFBE84C21A91CAEC00672D31 /* Libs */,
 			);
 			path = Classes;
@@ -296,6 +301,7 @@
 				EF83FD6D1A924168002731D9 /* main.m in Sources */,
 				EFDED49F1A9F05DE00CE4CC1 /* FrankieProcessManager.m in Sources */,
 				EFBE84CC1A91CC3E00672D31 /* FrankieRootNavigationController.m in Sources */,
+				EFDED4A41A9F17E000CE4CC1 /* FrankieNoticeBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

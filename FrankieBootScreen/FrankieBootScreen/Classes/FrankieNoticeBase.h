@@ -1,5 +1,5 @@
 //
-//  FrankieProcessManager.h
+//  FrankieNoticeBase.h
 //  FrankieBootScreen
 //
 //  Created by Frankenstein Yang on 2/26/15.
@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FrankieNoticeCodeDefine.h"
 
-@interface FrankieProcessManager : NSObject
+@interface FrankieNoticeBase : NSObject
 
-+ (FrankieProcessManager *)shareManager;
-
-//- (void)dispenseRootProcessNoticeWithNoticeCode:()
+@property (readonly) NoticeCodeType noticeCode;
 
 @end
