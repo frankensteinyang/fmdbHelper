@@ -8,6 +8,27 @@
 
 #import "FrankieProcessManager.h"
 
+static FrankieProcessManager *instance;
+
 @implementation FrankieProcessManager
+
+- (id)init {
+
+    if (!instance) {
+        self = [super init];
+        instance = self;
+    }
+    return instance;
+    
+}
+
++ (FrankieProcessManager *)shareManager {
+
+    if (!instance) {
+        instance = [[FrankieProcessManager alloc] init];
+    }
+    return instance;
+    
+}
 
 @end

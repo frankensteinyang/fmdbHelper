@@ -10,4 +10,6 @@
 
 @interface FrankieProcessManager : NSObject
 
++ (FrankieProcessManager *)shareManager;
+
 @end

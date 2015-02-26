@@ -59,6 +59,7 @@
 		EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrankieSplashViewController.xib; sourceTree = "<group>"; };
 		EFDED49D1A9F05DE00CE4CC1 /* FrankieProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieProcessManager.h; sourceTree = "<group>"; };
 		EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieProcessManager.m; sourceTree = "<group>"; };
+		EFDED4A11A9F0DE300CE4CC1 /* FrankieBootScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrankieBootScreen-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 		EF83FD681A92400D002731D9 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EFDED4A11A9F0DE300CE4CC1 /* FrankieBootScreen-Prefix.pch */,
 				EF83FD6A1A924168002731D9 /* Info.plist */,
 				EF83FD6B1A924168002731D9 /* main.m */,
 				EF6C69D31A8B55BC008C7BF3 /* Supporting Files */,
@@ -417,6 +419,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FrankieBootScreen/Other/FrankieBootScreen-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FrankieBootScreen/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +431,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FrankieBootScreen/Other/FrankieBootScreen-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FrankieBootScreen/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
