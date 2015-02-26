@@ -21,6 +21,7 @@
 		EFBE84CC1A91CC3E00672D31 /* FrankieRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE84C71A91CC3E00672D31 /* FrankieRootNavigationController.m */; };
 		EFBE84CD1A91CC3E00672D31 /* FrankieSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */; };
 		EFBE84CE1A91CC3E00672D31 /* FrankieSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */; };
+		EFDED49F1A9F05DE00CE4CC1 /* FrankieProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		EFBE84C81A91CC3E00672D31 /* FrankieSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieSplashViewController.h; sourceTree = "<group>"; };
 		EFBE84C91A91CC3E00672D31 /* FrankieSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieSplashViewController.m; sourceTree = "<group>"; };
 		EFBE84CA1A91CC3E00672D31 /* FrankieSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrankieSplashViewController.xib; sourceTree = "<group>"; };
+		EFDED49D1A9F05DE00CE4CC1 /* FrankieProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieProcessManager.h; sourceTree = "<group>"; };
+		EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieProcessManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				EF40832A1A9CD3010082AAB1 /* FrankieUILoginViewController.h */,
 				EF40832B1A9CD3010082AAB1 /* FrankieUILoginViewController.m */,
 				EFA228D51A9E26430024310F /* FrankieNoticeCodeDefine.h */,
+				EFDED49D1A9F05DE00CE4CC1 /* FrankieProcessManager.h */,
+				EFDED49E1A9F05DE00CE4CC1 /* FrankieProcessManager.m */,
 				EFBE84C21A91CAEC00672D31 /* Libs */,
 			);
 			path = Classes;
@@ -287,6 +292,7 @@
 				EF40832C1A9CD3010082AAB1 /* FrankieUILoginViewController.m in Sources */,
 				EFBE84CD1A91CC3E00672D31 /* FrankieSplashViewController.m in Sources */,
 				EF83FD6D1A924168002731D9 /* main.m in Sources */,
+				EFDED49F1A9F05DE00CE4CC1 /* FrankieProcessManager.m in Sources */,
 				EFBE84CC1A91CC3E00672D31 /* FrankieRootNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
