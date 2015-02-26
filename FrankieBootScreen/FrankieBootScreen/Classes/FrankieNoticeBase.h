@@ -13,4 +13,6 @@
 
 @property (readonly) NoticeCodeType noticeCode;
 
+@property (readonly) NoticePriorityType priority;
+
 @end

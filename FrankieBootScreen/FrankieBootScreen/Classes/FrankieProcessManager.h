@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FrankieNoticeBase.h"
 
 @interface FrankieProcessManager : NSObject
 
 + (FrankieProcessManager *)shareManager;
 
-//- (void)dispenseRootProcessNoticeWithNoticeCode:()
+//- (void)dispenseRootProcessNoticeWithNoticeCode:(NoticeCodeType)noticeCodeType priority:()
 
 @end

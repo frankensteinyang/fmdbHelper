@@ -11,10 +11,14 @@
 
 typedef enum CodeType {
 
-    NoticeCodeLaunched = 1001,
+    NoticeCodeLaunched = 1001
 
 } NoticeCodeType;
 
+typedef enum PriorityType {
 
+    PriorityHigh
+    
+} NoticePriorityType;
 
 #endif
