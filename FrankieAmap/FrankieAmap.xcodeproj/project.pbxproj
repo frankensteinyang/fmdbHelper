@@ -14,6 +14,16 @@
 		EFF50AFC1AA0037800E3F484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AFB1AA0037800E3F484 /* Images.xcassets */; };
 		EFF50AFF1AA0037800E3F484 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */; };
 		EFF50B0B1AA0037800E3F484 /* FrankieAmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50B0A1AA0037800E3F484 /* FrankieAmapTests.m */; };
+		EFF50B171AA01FAD00E3F484 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B161AA01FAD00E3F484 /* MAMapKit.framework */; };
+		EFF50B191AA024ED00E3F484 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B181AA024ED00E3F484 /* Security.framework */; };
+		EFF50B1B1AA0255100E3F484 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B1A1AA0255100E3F484 /* QuartzCore.framework */; };
+		EFF50B1D1AA0256100E3F484 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B1C1AA0256100E3F484 /* OpenGLES.framework */; };
+		EFF50B1F1AA0257B00E3F484 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B1E1AA0257B00E3F484 /* CoreLocation.framework */; };
+		EFF50B211AA0258600E3F484 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B201AA0258600E3F484 /* CoreTelephony.framework */; };
+		EFF50B231AA025A500E3F484 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */; };
+		EFF50B271AA03AF600E3F484 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */; };
+		EFF50B291AA03BCE00E3F484 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B281AA03BCE00E3F484 /* libz.dylib */; };
+		EFF50B2C1AA03E4900E3F484 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFF50B2B1AA03E4900E3F484 /* AMap.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,16 @@
 		EFF50B041AA0037800E3F484 /* FrankieAmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrankieAmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF50B091AA0037800E3F484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFF50B0A1AA0037800E3F484 /* FrankieAmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrankieAmapTests.m; sourceTree = "<group>"; };
+		EFF50B161AA01FAD00E3F484 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		EFF50B181AA024ED00E3F484 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EFF50B1A1AA0255100E3F484 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFF50B1C1AA0256100E3F484 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EFF50B1E1AA0257B00E3F484 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EFF50B201AA0258600E3F484 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		EFF50B281AA03BCE00E3F484 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EFF50B2B1AA03E4900E3F484 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF50B291AA03BCE00E3F484 /* libz.dylib in Frameworks */,
+				EFF50B271AA03AF600E3F484 /* libstdc++.6.0.9.dylib in Frameworks */,
+				EFF50B231AA025A500E3F484 /* SystemConfiguration.framework in Frameworks */,
+				EFF50B211AA0258600E3F484 /* CoreTelephony.framework in Frameworks */,
+				EFF50B1F1AA0257B00E3F484 /* CoreLocation.framework in Frameworks */,
+				EFF50B1D1AA0256100E3F484 /* OpenGLES.framework in Frameworks */,
+				EFF50B1B1AA0255100E3F484 /* QuartzCore.framework in Frameworks */,
+				EFF50B191AA024ED00E3F484 /* Security.framework in Frameworks */,
+				EFF50B171AA01FAD00E3F484 /* MAMapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,15 @@
 		EFF50AE21AA0037800E3F484 = {
 			isa = PBXGroup;
 			children = (
+				EFF50B2B1AA03E4900E3F484 /* AMap.bundle */,
+				EFF50B281AA03BCE00E3F484 /* libz.dylib */,
+				EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */,
+				EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */,
+				EFF50B201AA0258600E3F484 /* CoreTelephony.framework */,
+				EFF50B1E1AA0257B00E3F484 /* CoreLocation.framework */,
+				EFF50B1C1AA0256100E3F484 /* OpenGLES.framework */,
+				EFF50B1A1AA0255100E3F484 /* QuartzCore.framework */,
+				EFF50B181AA024ED00E3F484 /* Security.framework */,
 				EFF50AED1AA0037800E3F484 /* FrankieAmap */,
 				EFF50B071AA0037800E3F484 /* FrankieAmapTests */,
 				EFF50AEC1AA0037800E3F484 /* Products */,
@@ -81,6 +119,9 @@
 		EFF50AED1AA0037800E3F484 /* FrankieAmap */ = {
 			isa = PBXGroup;
 			children = (
+				EFF50B2A1AA03E0C00E3F484 /* Resources */,
+				EFF50B151AA01FAD00E3F484 /* Third party frameworks */,
+				EFF50B141AA01FA000E3F484 /* Classes */,
 				EFF50AF21AA0037800E3F484 /* AppDelegate.h */,
 				EFF50AF31AA0037800E3F484 /* AppDelegate.m */,
 				EFF50AF51AA0037800E3F484 /* ViewController.h */,
@@ -117,6 +158,28 @@
 				EFF50B091AA0037800E3F484 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF50B141AA01FA000E3F484 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EFF50B151AA01FAD00E3F484 /* Third party frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF50B161AA01FAD00E3F484 /* MAMapKit.framework */,
+			);
+			path = "Third party frameworks";
+			sourceTree = "<group>";
+		};
+		EFF50B2A1AA03E0C00E3F484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +264,7 @@
 			files = (
 				EFF50AFA1AA0037800E3F484 /* Main.storyboard in Resources */,
 				EFF50AFF1AA0037800E3F484 /* LaunchScreen.xib in Resources */,
+				EFF50B2C1AA03E4900E3F484 /* AMap.bundle in Resources */,
 				EFF50AFC1AA0037800E3F484 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,9 +407,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrankieAmap/Third",
+					party,
+					frameworks,
+				);
 				INFOPLIST_FILE = FrankieAmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -353,9 +426,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FrankieAmap/Third",
+					party,
+					frameworks,
+				);
 				INFOPLIST_FILE = FrankieAmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
