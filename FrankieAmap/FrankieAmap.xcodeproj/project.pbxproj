@@ -24,6 +24,7 @@
 		EFF50B271AA03AF600E3F484 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */; };
 		EFF50B291AA03BCE00E3F484 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B281AA03BCE00E3F484 /* libz.dylib */; };
 		EFF50B2C1AA03E4900E3F484 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFF50B2B1AA03E4900E3F484 /* AMap.bundle */; };
+		EFF50B2E1AA05BCB00E3F484 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B2D1AA05BCB00E3F484 /* AMapSearchKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		EFF50B281AA03BCE00E3F484 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		EFF50B2B1AA03E4900E3F484 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		EFF50B2D1AA05BCB00E3F484 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				EFF50B211AA0258600E3F484 /* CoreTelephony.framework in Frameworks */,
 				EFF50B1F1AA0257B00E3F484 /* CoreLocation.framework in Frameworks */,
 				EFF50B1D1AA0256100E3F484 /* OpenGLES.framework in Frameworks */,
+				EFF50B2E1AA05BCB00E3F484 /* AMapSearchKit.framework in Frameworks */,
 				EFF50B1B1AA0255100E3F484 /* QuartzCore.framework in Frameworks */,
 				EFF50B191AA024ED00E3F484 /* Security.framework in Frameworks */,
 				EFF50B171AA01FAD00E3F484 /* MAMapKit.framework in Frameworks */,
@@ -170,6 +173,7 @@
 		EFF50B151AA01FAD00E3F484 /* Third party frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFF50B2D1AA05BCB00E3F484 /* AMapSearchKit.framework */,
 				EFF50B161AA01FAD00E3F484 /* MAMapKit.framework */,
 			);
 			path = "Third party frameworks";
