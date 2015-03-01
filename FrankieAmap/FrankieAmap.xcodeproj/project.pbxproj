@@ -25,6 +25,7 @@
 		EFF50B231AA025A500E3F484 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */; };
 		EFF50B271AA03AF600E3F484 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */; };
 		EFF50B291AA03BCE00E3F484 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF50B281AA03BCE00E3F484 /* libz.dylib */; };
+		EFF68D791AA34D3C003B2991 /* FrankieLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF68D781AA34D3C003B2991 /* FrankieLocationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		EFF50B281AA03BCE00E3F484 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EFF68D771AA34D3C003B2991 /* FrankieLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieLocationViewController.h; sourceTree = "<group>"; };
+		EFF68D781AA34D3C003B2991 /* FrankieLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieLocationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 		EFF50B141AA01FA000E3F484 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EFF68D771AA34D3C003B2991 /* FrankieLocationViewController.h */,
+				EFF68D781AA34D3C003B2991 /* FrankieLocationViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 		EFF50AE31AA0037800E3F484 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Frankie;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Frankenstein Yang";
 				TargetAttributes = {
@@ -281,6 +287,7 @@
 			files = (
 				EFF50AF71AA0037800E3F484 /* ViewController.m in Sources */,
 				EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */,
+				EFF68D791AA34D3C003B2991 /* FrankieLocationViewController.m in Sources */,
 				EFF50AF11AA0037800E3F484 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
