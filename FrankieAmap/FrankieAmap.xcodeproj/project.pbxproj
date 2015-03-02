@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */; };
 		EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */; };
 		EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */; };
 		EF8FF8EB1AA1A49B00A1204F /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF1981B11AA4B40700879EFB /* FrankieBaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieBaseMapViewController.h; sourceTree = "<group>"; };
+		EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieBaseMapViewController.m; sourceTree = "<group>"; };
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
@@ -172,6 +175,8 @@
 			children = (
 				EFF68D771AA34D3C003B2991 /* FrankieLocationViewController.h */,
 				EFF68D781AA34D3C003B2991 /* FrankieLocationViewController.m */,
+				EF1981B11AA4B40700879EFB /* FrankieBaseMapViewController.h */,
+				EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF50AF71AA0037800E3F484 /* ViewController.m in Sources */,
+				EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */,
 				EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */,
 				EFF68D791AA34D3C003B2991 /* FrankieLocationViewController.m in Sources */,
 				EFF50AF11AA0037800E3F484 /* main.m in Sources */,
