@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FrankieAMapAPIKey.h"
+#import <MAMapKit/MAMapKit.h>
 
 @interface AppDelegate ()
 
@@ -14,9 +16,25 @@
 
 @implementation AppDelegate
 
+- (void)configureAMapAPIKey
+{
+    if ([APIKey length] == 0)
+    {
+        NSString *reason = [NSString stringWithFormat:@"Frankenstein! Testing!"];
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:reason delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        
+        [alert show];
+    }
+    
+    [MAMapServices sharedServices].apiKey = (NSString *)APIKey;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self configureAMapAPIKey];
+    
     return YES;
 }
 

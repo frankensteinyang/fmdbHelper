@@ -58,11 +58,10 @@
 - (void)viewDidAppear:(BOOL)animated {
 
     [super viewDidAppear:animated];
-    [MAMapServices sharedServices].apiKey = @"8eb3e00b5959c32ca542f97a6de80e5f";
-//    _mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
-//    _mapView.delegate = self;
-//    _mapView.showsUserLocation = YES;
-//    [self.view addSubview:_mapView];
+    _mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
+    _mapView.delegate = self;
+    _mapView.showsUserLocation = YES;
+    [self.view addSubview:_mapView];
     
 }
 
