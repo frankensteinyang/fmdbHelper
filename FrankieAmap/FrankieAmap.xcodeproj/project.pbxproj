@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		EF1981B11AA4B40700879EFB /* FrankieBaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieBaseMapViewController.h; sourceTree = "<group>"; };
 		EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieBaseMapViewController.m; sourceTree = "<group>"; };
+		EF2200E91AA60779007275F9 /* FrankieAMapAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAMapAPIKey.h; sourceTree = "<group>"; };
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
@@ -98,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF2200E81AA60724007275F9 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EF2200E91AA60779007275F9 /* FrankieAMapAPIKey.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		EFF50AE21AA0037800E3F484 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +182,7 @@
 		EFF50B141AA01FA000E3F484 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EF2200E81AA60724007275F9 /* Configuration */,
 				EFF68D771AA34D3C003B2991 /* FrankieLocationViewController.h */,
 				EFF68D781AA34D3C003B2991 /* FrankieLocationViewController.m */,
 				EF1981B11AA4B40700879EFB /* FrankieBaseMapViewController.h */,
