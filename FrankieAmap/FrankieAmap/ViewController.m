@@ -61,6 +61,8 @@
     _mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
     _mapView.delegate = self;
     _mapView.showsUserLocation = YES;
+    _mapView.showsCompass = NO;
+    _mapView.showsScale = NO;
     [self.view addSubview:_mapView];
     
 }
