@@ -13,6 +13,7 @@
 		EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */; };
 		EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */; };
 		EF8FF8EB1AA1A49B00A1204F /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */; };
+		EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */; };
 		EFF50AF11AA0037800E3F484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF01AA0037800E3F484 /* main.m */; };
 		EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF31AA0037800E3F484 /* AppDelegate.m */; };
 		EFF50AF71AA0037800E3F484 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF61AA0037800E3F484 /* ViewController.m */; };
@@ -52,6 +53,8 @@
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		EFE75F551AA93BC70038ACCB /* FrankieMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMainViewController.h; sourceTree = "<group>"; };
+		EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieMainViewController.m; sourceTree = "<group>"; };
 		EFF50AEB1AA0037800E3F484 /* FrankieAmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieAmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF50AEF1AA0037800E3F484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFF50AF01AA0037800E3F484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -205,6 +208,8 @@
 				EFF68D781AA34D3C003B2991 /* FrankieLocationViewController.m */,
 				EF1981B11AA4B40700879EFB /* FrankieBaseMapViewController.h */,
 				EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */,
+				EFE75F551AA93BC70038ACCB /* FrankieMainViewController.h */,
+				EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 			files = (
 				EFF50AF71AA0037800E3F484 /* ViewController.m in Sources */,
 				EF1A77ED1AA75F4E004613E1 /* FrankieMapHelper.m in Sources */,
+				EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */,
 				EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */,
 				EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */,
 				EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */,
