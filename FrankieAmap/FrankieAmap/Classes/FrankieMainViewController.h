@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Frankenstein Yang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface FrankieMainViewController : ViewController
+@interface FrankieMainViewController : UIViewController
 
 @end

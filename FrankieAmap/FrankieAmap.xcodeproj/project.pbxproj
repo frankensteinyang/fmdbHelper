@@ -16,7 +16,6 @@
 		EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */; };
 		EFF50AF11AA0037800E3F484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF01AA0037800E3F484 /* main.m */; };
 		EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF31AA0037800E3F484 /* AppDelegate.m */; };
-		EFF50AF71AA0037800E3F484 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF61AA0037800E3F484 /* ViewController.m */; };
 		EFF50AFA1AA0037800E3F484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AF81AA0037800E3F484 /* Main.storyboard */; };
 		EFF50AFC1AA0037800E3F484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AFB1AA0037800E3F484 /* Images.xcassets */; };
 		EFF50AFF1AA0037800E3F484 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */; };
@@ -60,8 +59,6 @@
 		EFF50AF01AA0037800E3F484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFF50AF21AA0037800E3F484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFF50AF31AA0037800E3F484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFF50AF51AA0037800E3F484 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFF50AF61AA0037800E3F484 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFF50AF91AA0037800E3F484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF50AFB1AA0037800E3F484 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFF50AFE1AA0037800E3F484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -163,8 +160,6 @@
 				EFF50B141AA01FA000E3F484 /* Classes */,
 				EFF50AF21AA0037800E3F484 /* AppDelegate.h */,
 				EFF50AF31AA0037800E3F484 /* AppDelegate.m */,
-				EFF50AF51AA0037800E3F484 /* ViewController.h */,
-				EFF50AF61AA0037800E3F484 /* ViewController.m */,
 				EFF50AF81AA0037800E3F484 /* Main.storyboard */,
 				EFF50AFB1AA0037800E3F484 /* Images.xcassets */,
 				EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */,
@@ -323,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF50AF71AA0037800E3F484 /* ViewController.m in Sources */,
 				EF1A77ED1AA75F4E004613E1 /* FrankieMapHelper.m in Sources */,
 				EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */,
 				EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */,
