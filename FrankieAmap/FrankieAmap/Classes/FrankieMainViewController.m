@@ -73,6 +73,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     _mapView.userTrackingMode = MAUserTrackingModeFollow;
+    _mapView.centerCoordinate = CLLocationCoordinate2DMake(31.220032, 121.369915);
     
     [self initToolBar];
     
