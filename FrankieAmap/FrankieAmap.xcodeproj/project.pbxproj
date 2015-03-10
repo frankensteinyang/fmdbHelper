@@ -10,6 +10,7 @@
 		EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */; };
 		EF1A77ED1AA75F4E004613E1 /* FrankieMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A77EC1AA75F4E004613E1 /* FrankieMapHelper.m */; };
 		EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AFA181AA8B0BE00DE14D6 /* FrankieMapManager.m */; };
+		EF69AD361AAF4AAD00535676 /* FrankieCenterMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */; };
 		EF76D8411AADF9D300524E91 /* FrankieAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */; };
 		EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */; };
 		EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */; };
@@ -50,6 +51,8 @@
 		EF2200E91AA60779007275F9 /* FrankieAMapAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAMapAPIKey.h; sourceTree = "<group>"; };
 		EF5AFA171AA8B0BE00DE14D6 /* FrankieMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMapManager.h; sourceTree = "<group>"; };
 		EF5AFA181AA8B0BE00DE14D6 /* FrankieMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieMapManager.m; sourceTree = "<group>"; };
+		EF69AD341AAF4AAD00535676 /* FrankieCenterMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieCenterMapViewController.h; sourceTree = "<group>"; };
+		EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieCenterMapViewController.m; sourceTree = "<group>"; };
 		EF76D83F1AADF9D300524E91 /* FrankieAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAnnotationViewController.h; sourceTree = "<group>"; };
 		EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAnnotationViewController.m; sourceTree = "<group>"; };
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 				EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */,
 				EF76D83F1AADF9D300524E91 /* FrankieAnnotationViewController.h */,
 				EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */,
+				EF69AD341AAF4AAD00535676 /* FrankieCenterMapViewController.h */,
+				EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				EF76D8411AADF9D300524E91 /* FrankieAnnotationViewController.m in Sources */,
 				EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */,
 				EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */,
+				EF69AD361AAF4AAD00535676 /* FrankieCenterMapViewController.m in Sources */,
 				EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */,
 				EFF68D791AA34D3C003B2991 /* FrankieLocationViewController.m in Sources */,
 				EFF50AF11AA0037800E3F484 /* main.m in Sources */,

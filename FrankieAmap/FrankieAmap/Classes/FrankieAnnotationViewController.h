@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Frankenstein Yang. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface FrankieAnnotationViewController : ViewController
+@interface FrankieAnnotationViewController : UIViewController
 
 @end
