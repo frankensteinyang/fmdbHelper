@@ -166,7 +166,6 @@
 				EFF50B141AA01FA000E3F484 /* Classes */,
 				EFF50AF21AA0037800E3F484 /* AppDelegate.h */,
 				EFF50AF31AA0037800E3F484 /* AppDelegate.m */,
-				EFF50AF81AA0037800E3F484 /* Main.storyboard */,
 				EFF50AFB1AA0037800E3F484 /* Images.xcassets */,
 				EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */,
 				EFF50AEE1AA0037800E3F484 /* Supporting Files */,
@@ -203,6 +202,7 @@
 		EFF50B141AA01FA000E3F484 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EFF50AF81AA0037800E3F484 /* Main.storyboard */,
 				EF1A77EA1AA75F0F004613E1 /* MapCommon */,
 				EF2200E81AA60724007275F9 /* Configuration */,
 				EFF68D771AA34D3C003B2991 /* FrankieLocationViewController.h */,
@@ -365,6 +365,7 @@
 				EFF50AF91AA0037800E3F484 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */ = {
