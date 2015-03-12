@@ -25,14 +25,19 @@
     self.mapView.showsCompass = NO;
     self.mapView.showsScale = NO;
     
+    // UITapGestureRecognizer
+    
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    _mapView.mapType = MAMapTypeStandard;
+    _map
     _mapView.userTrackingMode = MAUserTrackingModeFollow;
     _mapView.centerCoordinate = CLLocationCoordinate2DMake(31.220032, 121.369915);
+    
     
 }
 
