@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FrankieBaseMapViewController : UIViewController
+@interface FrankieBaseMapViewController : UIViewController {
+
+    @property (nonatomic, strong) MAMapView *aMapView;
+    
+    @property (nonatomic, strong) AMapSearchAPI *search;
+
+}
+
+
 
 @end
