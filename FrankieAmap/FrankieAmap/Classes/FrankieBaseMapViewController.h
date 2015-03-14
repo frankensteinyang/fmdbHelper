@@ -7,15 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MAMapKit/MAMapKit.h>
 
-@interface FrankieBaseMapViewController : UIViewController {
+@interface FrankieBaseMapViewController : UIViewController <MAMapViewDelegate>
 
-    @property (nonatomic, strong) MAMapView *aMapView;
-    
-    @property (nonatomic, strong) AMapSearchAPI *search;
-
-}
-
-
+@property (nonatomic, strong) MAMapView *aMapView;
 
 @end

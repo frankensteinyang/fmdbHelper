@@ -10,7 +10,4 @@
 
 @interface FrankieMapManager : NSObject
 
-// 获取最后获取到的位置信息
-- (CLLocation *)getLastCLocation;
-
 @end
