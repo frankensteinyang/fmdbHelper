@@ -34,7 +34,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     _mapView.mapType = MAMapTypeStandard;
-    _mapView.userTrackingMode = MAUserTrackingModeFollow;
+//    _mapView.userTrackingMode = MAUserTrackingModeFollow;
+    _mapView.showsUserLocation = YES;
+    _mapView.showsCompass = YES;
+    _mapView.showsScale = YES;
     _mapView.centerCoordinate = CLLocationCoordinate2DMake(31.220032, 121.369915);
     
     
