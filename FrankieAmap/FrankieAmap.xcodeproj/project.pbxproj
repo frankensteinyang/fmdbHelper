@@ -12,6 +12,9 @@
 		EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AFA181AA8B0BE00DE14D6 /* FrankieMapManager.m */; };
 		EF69AD361AAF4AAD00535676 /* FrankieCenterMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */; };
 		EF76D8411AADF9D300524E91 /* FrankieAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */; };
+		EF86554F1AB86F7A00DE31FA /* AccuracyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */; };
+		EF8655521AB870AB00DE31FA /* LocatingBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8655501AB870AB00DE31FA /* LocatingBtn.png */; };
+		EF8655531AB870AB00DE31FA /* UserLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8655511AB870AB00DE31FA /* UserLocation.png */; };
 		EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */; };
 		EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */; };
 		EF8FF8EB1AA1A49B00A1204F /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */; };
@@ -56,6 +59,9 @@
 		EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieCenterMapViewController.m; sourceTree = "<group>"; };
 		EF76D83F1AADF9D300524E91 /* FrankieAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAnnotationViewController.h; sourceTree = "<group>"; };
 		EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAnnotationViewController.m; sourceTree = "<group>"; };
+		EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccuracyCircle.png; sourceTree = "<group>"; };
+		EF8655501AB870AB00DE31FA /* LocatingBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocatingBtn.png; sourceTree = "<group>"; };
+		EF8655511AB870AB00DE31FA /* UserLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserLocation.png; sourceTree = "<group>"; };
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
@@ -188,6 +194,9 @@
 		EFF50AEE1AA0037800E3F484 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */,
+				EF8655501AB870AB00DE31FA /* LocatingBtn.png */,
+				EF8655511AB870AB00DE31FA /* UserLocation.png */,
 				EFF50AEF1AA0037800E3F484 /* Info.plist */,
 				EFF50AF01AA0037800E3F484 /* main.m */,
 			);
@@ -322,8 +331,11 @@
 			files = (
 				EFF50AFA1AA0037800E3F484 /* Main.storyboard in Resources */,
 				EFF50AFF1AA0037800E3F484 /* LaunchScreen.xib in Resources */,
+				EF8655531AB870AB00DE31FA /* UserLocation.png in Resources */,
+				EF86554F1AB86F7A00DE31FA /* AccuracyCircle.png in Resources */,
 				EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */,
 				EFF50AFC1AA0037800E3F484 /* Images.xcassets in Resources */,
+				EF8655521AB870AB00DE31FA /* LocatingBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

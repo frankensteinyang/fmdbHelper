@@ -9,7 +9,10 @@
 #import "FrankieMainViewController.h"
 #import <MAMapKit/MAMapKit.h>
 
-@interface FrankieMainViewController () <MAMapViewDelegate>
+@interface FrankieMainViewController () <MAMapViewDelegate> {
+
+    MAAnnotationView *_userLocationView;
+}
 
 @property (weak, nonatomic) IBOutlet MAMapView *mapView;
 @property (strong, nonatomic) MAPointAnnotation *centerAnno;
@@ -24,7 +27,6 @@
     [super viewDidAppear:animated];
     self.mapView.showsCompass = NO;
     self.mapView.showsScale = NO;
-    
     // UITapGestureRecognizer
     
 }
@@ -40,7 +42,6 @@
     _mapView.showsScale = YES;
     _mapView.centerCoordinate = CLLocationCoordinate2DMake(31.220032, 121.369915);
     
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,6 +54,15 @@
     if (updatingLocation) {
         NSLog(@"Latitude : %f, Longitude: %f", userLocation.coordinate.latitude, userLocation.coordinate.longitude);
     }
+    
+}
+
+- (MAAnnotationView *)mapView:(MAMapView *)mapView viewForAnnotation:(id<MAAnnotation>)annotation {
+
+    MAAnnotationView *userLocationView = (MAAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"userLocationView"];
+    userLocationView = [[MAAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"userLocationView"];
+    userLocationView.image = [UIImage imageNamed:@"AccuracyCircle.png"];
+    return userLocationView;
     
 }
 
