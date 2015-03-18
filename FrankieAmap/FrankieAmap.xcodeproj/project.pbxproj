@@ -18,6 +18,7 @@
 		EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */; };
 		EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */; };
 		EF8FF8EB1AA1A49B00A1204F /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */; };
+		EFBCE3981AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */; };
 		EFDE25A71AB340A40050CCCA /* Frankie3DMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDE25A61AB340A40050CCCA /* Frankie3DMapHelper.m */; };
 		EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */; };
 		EFF50AF11AA0037800E3F484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF01AA0037800E3F484 /* main.m */; };
@@ -65,6 +66,8 @@
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsMainViewController.h; sourceTree = "<group>"; };
+		EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieGoogleMapsMainViewController.m; sourceTree = "<group>"; };
 		EFDE25A51AB340A40050CCCA /* Frankie3DMapHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frankie3DMapHelper.h; sourceTree = "<group>"; };
 		EFDE25A61AB340A40050CCCA /* Frankie3DMapHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frankie3DMapHelper.m; sourceTree = "<group>"; };
 		EFE75F551AA93BC70038ACCB /* FrankieMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMainViewController.h; sourceTree = "<group>"; };
@@ -137,6 +140,15 @@
 				EF2200E91AA60779007275F9 /* FrankieAMapAPIKey.h */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EFBCE3951AB9D7D000B40DC2 /* Google Maps */ = {
+			isa = PBXGroup;
+			children = (
+				EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */,
+				EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */,
+			);
+			name = "Google Maps";
 			sourceTree = "<group>";
 		};
 		EFDE25A41AB3406B0050CCCA /* 3DMap */ = {
@@ -223,6 +235,7 @@
 		EFF50B141AA01FA000E3F484 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EFBCE3951AB9D7D000B40DC2 /* Google Maps */,
 				EFDE25A41AB3406B0050CCCA /* 3DMap */,
 				EFF50AF81AA0037800E3F484 /* Main.storyboard */,
 				EF1A77EA1AA75F0F004613E1 /* MapCommon */,
@@ -354,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1A77ED1AA75F4E004613E1 /* FrankieMapHelper.m in Sources */,
+				EFBCE3981AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m in Sources */,
 				EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */,
 				EF76D8411AADF9D300524E91 /* FrankieAnnotationViewController.m in Sources */,
 				EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */,
