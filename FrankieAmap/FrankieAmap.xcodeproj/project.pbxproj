@@ -10,6 +10,14 @@
 		EF1981B31AA4B40700879EFB /* FrankieBaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1981B21AA4B40700879EFB /* FrankieBaseMapViewController.m */; };
 		EF1A77ED1AA75F4E004613E1 /* FrankieMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1A77EC1AA75F4E004613E1 /* FrankieMapHelper.m */; };
 		EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AFA181AA8B0BE00DE14D6 /* FrankieMapManager.m */; };
+		EF6726C61ABAA45100896F14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726C51ABAA45100896F14 /* AVFoundation.framework */; };
+		EF6726C81ABAA47000896F14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726C71ABAA47000896F14 /* CoreData.framework */; };
+		EF6726CA1ABAA47A00896F14 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726C91ABAA47A00896F14 /* CoreText.framework */; };
+		EF6726CC1ABAA49500896F14 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726CB1ABAA49500896F14 /* GLKit.framework */; };
+		EF6726CE1ABAA49E00896F14 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726CD1ABAA49E00896F14 /* ImageIO.framework */; };
+		EF6726D01ABAA4D100896F14 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726CF1ABAA4D100896F14 /* libc++.dylib */; };
+		EF6726D21ABAA4ED00896F14 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726D11ABAA4ED00896F14 /* libicucore.dylib */; };
+		EF6726D41ABAA59500896F14 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6726D31ABAA59500896F14 /* GoogleMaps.framework */; };
 		EF69AD361AAF4AAD00535676 /* FrankieCenterMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */; };
 		EF76D8411AADF9D300524E91 /* FrankieAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */; };
 		EF86554F1AB86F7A00DE31FA /* AccuracyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */; };
@@ -56,6 +64,15 @@
 		EF2200E91AA60779007275F9 /* FrankieAMapAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAMapAPIKey.h; sourceTree = "<group>"; };
 		EF5AFA171AA8B0BE00DE14D6 /* FrankieMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMapManager.h; sourceTree = "<group>"; };
 		EF5AFA181AA8B0BE00DE14D6 /* FrankieMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieMapManager.m; sourceTree = "<group>"; };
+		EF6726C41ABAA41900896F14 /* Readme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Readme.h; sourceTree = "<group>"; };
+		EF6726C51ABAA45100896F14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF6726C71ABAA47000896F14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF6726C91ABAA47A00896F14 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EF6726CB1ABAA49500896F14 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		EF6726CD1ABAA49E00896F14 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EF6726CF1ABAA4D100896F14 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		EF6726D11ABAA4ED00896F14 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		EF6726D31ABAA59500896F14 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		EF69AD341AAF4AAD00535676 /* FrankieCenterMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieCenterMapViewController.h; sourceTree = "<group>"; };
 		EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieCenterMapViewController.m; sourceTree = "<group>"; };
 		EF76D83F1AADF9D300524E91 /* FrankieAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAnnotationViewController.h; sourceTree = "<group>"; };
@@ -100,6 +117,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6726D21ABAA4ED00896F14 /* libicucore.dylib in Frameworks */,
+				EF6726D01ABAA4D100896F14 /* libc++.dylib in Frameworks */,
+				EF6726CE1ABAA49E00896F14 /* ImageIO.framework in Frameworks */,
+				EF6726CC1ABAA49500896F14 /* GLKit.framework in Frameworks */,
+				EF6726CA1ABAA47A00896F14 /* CoreText.framework in Frameworks */,
+				EF6726C81ABAA47000896F14 /* CoreData.framework in Frameworks */,
+				EF6726D41ABAA59500896F14 /* GoogleMaps.framework in Frameworks */,
+				EF6726C61ABAA45100896F14 /* AVFoundation.framework in Frameworks */,
 				EF8FF8EB1AA1A49B00A1204F /* AMapSearchKit.framework in Frameworks */,
 				EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */,
 				EFF50B291AA03BCE00E3F484 /* libz.dylib in Frameworks */,
@@ -147,6 +172,7 @@
 			children = (
 				EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */,
 				EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */,
+				EF6726C41ABAA41900896F14 /* Readme.h */,
 			);
 			name = "Google Maps";
 			sourceTree = "<group>";
@@ -163,6 +189,14 @@
 		EFF50AE21AA0037800E3F484 = {
 			isa = PBXGroup;
 			children = (
+				EF6726D31ABAA59500896F14 /* GoogleMaps.framework */,
+				EF6726D11ABAA4ED00896F14 /* libicucore.dylib */,
+				EF6726CF1ABAA4D100896F14 /* libc++.dylib */,
+				EF6726CD1ABAA49E00896F14 /* ImageIO.framework */,
+				EF6726CB1ABAA49500896F14 /* GLKit.framework */,
+				EF6726C91ABAA47A00896F14 /* CoreText.framework */,
+				EF6726C71ABAA47000896F14 /* CoreData.framework */,
+				EF6726C51ABAA45100896F14 /* AVFoundation.framework */,
 				EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */,
 				EFF50B281AA03BCE00E3F484 /* libz.dylib */,
 				EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */,
