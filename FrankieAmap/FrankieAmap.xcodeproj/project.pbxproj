@@ -83,6 +83,7 @@
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		EFA369791ABC792C00F7A262 /* FrankieGoogleMapsAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsAPIKey.h; sourceTree = "<group>"; };
 		EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsMainViewController.h; sourceTree = "<group>"; };
 		EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieGoogleMapsMainViewController.m; sourceTree = "<group>"; };
 		EFDE25A51AB340A40050CCCA /* Frankie3DMapHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frankie3DMapHelper.h; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 				EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */,
 				EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */,
 				EF6726C41ABAA41900896F14 /* Readme.h */,
+				EFA369791ABC792C00F7A262 /* FrankieGoogleMapsAPIKey.h */,
 			);
 			name = "Google Maps";
 			sourceTree = "<group>";
