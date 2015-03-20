@@ -9,5 +9,6 @@
 #ifndef FrankieAmap_FrankieGoogleMapsAPIKey_h
 #define FrankieAmap_FrankieGoogleMapsAPIKey_h
 
+static NSString *const kAPIKey = @"AIzaSyBQL7vZ22441xHKz9fZTKCtzwYxUwgsR5o";
 
 #endif
