@@ -11,6 +11,7 @@
 #import "FrankieGoogleMapsAPIKey.h"
 #import <MAMapKit/MAMapKit.h>
 #import <GoogleMaps/GoogleMaps.h>
+#import "FrankieGoogleMapsMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -50,6 +51,11 @@
     
     [GMSServices provideAPIKey:kAPIKey];
     services_ = [GMSServices sharedServices];
+    NSLog(@"Open source licenses:\n%@", [GMSServices openSourceLicenseInfo]);
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    FrankieGoogleMapsMainViewController *master = [[FrankieGoogleMapsMainViewController alloc] init];
+    master.appDelegate = self;
     
 }
 
@@ -57,6 +63,7 @@
     // Override point for customization after application launch.
     
     [self configureAMapAPIKey];
+    [self configureGoogleMapsAPIKey];
     
     return YES;
 }

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class AppDelegate;
+
 @interface FrankieGoogleMapsMainViewController : UIViewController
+
+@property (nonatomic, assign) AppDelegate *appDelegate;
 
 @end
