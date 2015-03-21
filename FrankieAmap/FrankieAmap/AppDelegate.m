@@ -8,13 +8,19 @@
 
 #import "AppDelegate.h"
 #import "FrankieAMapAPIKey.h"
+#import "FrankieGoogleMapsAPIKey.h"
 #import <MAMapKit/MAMapKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate {
+    
+    id services_;
+    
+}
 
 - (void)configureAMapAPIKey
 {
@@ -28,6 +34,23 @@
     }
     
     [MAMapServices sharedServices].apiKey = (NSString *)APIKey;
+}
+
+- (void)configureGoogleMapsAPIKey
+{
+    if ([kAPIKey length] == 0)
+    {
+        NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
+        NSString *format = @"Configure APIKey inside FrankieGoogleMapsAPIKey.h for your "
+        @"bundle `%@`, see Readme.h for more information";
+        @throw [NSException exceptionWithName:@"AppDelegate"
+                                       reason:[NSString stringWithFormat:format, bundleId]
+                                     userInfo:nil];
+    }
+    
+    [GMSServices provideAPIKey:kAPIKey];
+    services_ = [GMSServices sharedServices];
+    
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
