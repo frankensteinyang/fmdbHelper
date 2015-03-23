@@ -13,6 +13,7 @@
 #import <MAMapKit/MAMapKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 
+
 @interface FrankieAppDelegate ()
 
 @end
@@ -45,7 +46,7 @@
         NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
         NSString *format = @"Configure APIKey inside FrankieGoogleMapsAPIKey.h for your "
         @"bundle `%@`, see Readme.h for more information";
-        @throw [NSException exceptionWithName:@"AppDelegate"
+        @throw [NSException exceptionWithName:@"FrankieAppDelegate"
                                        reason:[NSString stringWithFormat:format, bundleId]
                                      userInfo:nil];
     }
@@ -81,7 +82,7 @@
     // Override point for customization after application launch.
     
     // 高德地图
-    //    [self configureAMapAPIKey];
+//    [self configureAMapAPIKey];
     
     // Google地图
     [self configureGoogleMapsAPIKey];

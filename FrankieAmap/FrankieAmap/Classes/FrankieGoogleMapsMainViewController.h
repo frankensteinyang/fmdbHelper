@@ -10,9 +10,7 @@
 
 @class FrankieAppDelegate;
 
-@interface FrankieGoogleMapsMainViewController : UITableViewController <UISplitViewControllerDelegate,
-                                                                        UITableViewDataSource,
-                                                                        UITableViewDelegate>
+@interface FrankieGoogleMapsMainViewController : UITableViewController <UISplitViewControllerDelegate>
 
 @property (nonatomic, assign) FrankieAppDelegate *appDelegate;
 
