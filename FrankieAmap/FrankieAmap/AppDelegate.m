@@ -62,7 +62,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [self configureAMapAPIKey];
+    // 高德地图
+//    [self configureAMapAPIKey];
+    
+    // Google地图
     [self configureGoogleMapsAPIKey];
     
     return YES;
