@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class AppDelegate;
+@class FrankieAppDelegate;
 
-@interface FrankieGoogleMapsMainViewController : UIViewController
+@interface FrankieGoogleMapsMainViewController : UITableViewController <UISplitViewControllerDelegate,
+                                                                        UITableViewDataSource,
+                                                                        UITableViewDelegate>
 
-@property (nonatomic, assign) AppDelegate *appDelegate;
+@property (nonatomic, assign) FrankieAppDelegate *appDelegate;
 
 @end

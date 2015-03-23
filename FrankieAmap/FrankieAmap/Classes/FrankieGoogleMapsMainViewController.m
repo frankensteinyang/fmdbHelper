@@ -8,6 +8,17 @@
 
 #import "FrankieGoogleMapsMainViewController.h"
 
-@implementation FrankieGoogleMapsMainViewController
+@implementation FrankieGoogleMapsMainViewController {
+
+    NSArray *demos_;
+    NSArray *demoSections_;
+}
+
+- (void)viewDidLoad {
+
+    [super viewDidLoad];
+    
+    
+}
 
 @end

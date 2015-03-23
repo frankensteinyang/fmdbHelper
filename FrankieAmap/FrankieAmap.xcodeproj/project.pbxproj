@@ -32,7 +32,6 @@
 		EFDE25A71AB340A40050CCCA /* Frankie3DMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDE25A61AB340A40050CCCA /* Frankie3DMapHelper.m */; };
 		EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */; };
 		EFF50AF11AA0037800E3F484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF01AA0037800E3F484 /* main.m */; };
-		EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF31AA0037800E3F484 /* AppDelegate.m */; };
 		EFF50AFA1AA0037800E3F484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AF81AA0037800E3F484 /* Main.storyboard */; };
 		EFF50AFC1AA0037800E3F484 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AFB1AA0037800E3F484 /* Images.xcassets */; };
 		EFF50AFF1AA0037800E3F484 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */; };
@@ -98,8 +97,6 @@
 		EFF50AEB1AA0037800E3F484 /* FrankieAmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrankieAmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF50AEF1AA0037800E3F484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFF50AF01AA0037800E3F484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFF50AF21AA0037800E3F484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EFF50AF31AA0037800E3F484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFF50AF91AA0037800E3F484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF50AFB1AA0037800E3F484 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFF50AFE1AA0037800E3F484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -236,8 +233,6 @@
 				EFF50AEE1AA0037800E3F484 /* Supporting Files */,
 				EFF50B2A1AA03E0C00E3F484 /* Resources */,
 				EFF50B141AA01FA000E3F484 /* Classes */,
-				EFF50AF21AA0037800E3F484 /* AppDelegate.h */,
-				EFF50AF31AA0037800E3F484 /* AppDelegate.m */,
 				EF81EE6A1ABFAC6900193636 /* FrankieAppDelegate.h */,
 				EF81EE6B1ABFAC6900193636 /* FrankieAppDelegate.m */,
 			);
@@ -420,7 +415,6 @@
 				EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */,
 				EF69AD361AAF4AAD00535676 /* FrankieCenterMapViewController.m in Sources */,
 				EFDE25A71AB340A40050CCCA /* Frankie3DMapHelper.m in Sources */,
-				EFF50AF41AA0037800E3F484 /* AppDelegate.m in Sources */,
 				EFF68D791AA34D3C003B2991 /* FrankieLocationViewController.m in Sources */,
 				EFF50AF11AA0037800E3F484 /* main.m in Sources */,
 			);
