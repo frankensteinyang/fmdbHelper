@@ -178,10 +178,10 @@
 			children = (
 				EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */,
 				EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */,
-				EF6726C41ABAA41900896F14 /* Readme.h */,
-				EFA369791ABC792C00F7A262 /* FrankieGoogleMapsAPIKey.h */,
 				EFA1E9EE1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.h */,
 				EFA1E9EF1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.m */,
+				EF6726C41ABAA41900896F14 /* Readme.h */,
+				EFA369791ABC792C00F7A262 /* FrankieGoogleMapsAPIKey.h */,
 			);
 			name = "Google Maps";
 			sourceTree = "<group>";

@@ -10,4 +10,23 @@
 
 @implementation FrankieGoogleMapsSamples
 
++ (NSArray *)loadSections {
+
+    return @[@"Map", @"Camera"];
+    
+}
+
++ (NSArray *)loadDemos {
+
+//    NSArray *mapDemos = @[[self]];
+    return @[mapDemos, cameraDemos];
+    
+}
+
++ (NSDictionary *)newDemo:(Class)class withTitle:(NSString *)title andDescription:(NSString *)description {
+
+    return [[NSDictionary alloc] initWithObjectsAndKeys:class, @"controller", title, @"title", description, @"description", nil];
+    
+}
+
 @end
