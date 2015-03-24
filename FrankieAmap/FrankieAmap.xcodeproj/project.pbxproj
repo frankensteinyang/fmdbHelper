@@ -28,6 +28,7 @@
 		EF8FF8E51AA1A2FA00A1204F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */; };
 		EF8FF8E91AA1A45600A1204F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */; };
 		EF8FF8EB1AA1A49B00A1204F /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */; };
+		EFA1E9F01AC11B7B00A7D365 /* FrankieGoogleMapsSamples.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E9EF1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.m */; };
 		EFBCE3981AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */; };
 		EFDE25A71AB340A40050CCCA /* Frankie3DMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDE25A61AB340A40050CCCA /* Frankie3DMapHelper.m */; };
 		EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */; };
@@ -87,6 +88,8 @@
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		EFA1E9EE1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsSamples.h; sourceTree = "<group>"; };
+		EFA1E9EF1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieGoogleMapsSamples.m; sourceTree = "<group>"; };
 		EFA369791ABC792C00F7A262 /* FrankieGoogleMapsAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsAPIKey.h; sourceTree = "<group>"; };
 		EFBCE3961AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsMainViewController.h; sourceTree = "<group>"; };
 		EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieGoogleMapsMainViewController.m; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				EFBCE3971AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m */,
 				EF6726C41ABAA41900896F14 /* Readme.h */,
 				EFA369791ABC792C00F7A262 /* FrankieGoogleMapsAPIKey.h */,
+				EFA1E9EE1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.h */,
+				EFA1E9EF1AC11B7B00A7D365 /* FrankieGoogleMapsSamples.m */,
 			);
 			name = "Google Maps";
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA1E9F01AC11B7B00A7D365 /* FrankieGoogleMapsSamples.m in Sources */,
 				EF1A77ED1AA75F4E004613E1 /* FrankieMapHelper.m in Sources */,
 				EFBCE3981AB9D80400B40DC2 /* FrankieGoogleMapsMainViewController.m in Sources */,
 				EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */,
@@ -544,7 +550,7 @@
 				INFOPLIST_FILE = FrankieAmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -558,7 +564,7 @@
 				INFOPLIST_FILE = FrankieAmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
