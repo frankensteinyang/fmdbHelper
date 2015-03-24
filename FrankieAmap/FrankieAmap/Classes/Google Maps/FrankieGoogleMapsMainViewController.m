@@ -8,6 +8,7 @@
 
 #import "FrankieGoogleMapsMainViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import "FrankieGoogleMapsSamples.h"
 
 @implementation FrankieGoogleMapsMainViewController {
 
@@ -37,6 +38,13 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
+    demoSections_ = [FrankieGoogleMapsSamples loadSections];
+    demos_ = [FrankieGoogleMapsSamples loadDemos];
+    
+    if (!isPhone_) {
+        [self loadDemo:0 atIndex:0];
+    }
+    
 }
 
 #pragma mark - UITableViewController
@@ -61,7 +69,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     return [[demos_ objectAtIndex:section] count];
-    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -84,9 +91,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
     [self loadDemo:indexPath.section atIndex:indexPath.row];
-    NSLog(@"ddddddd");
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NSLog(@"fff");
     
 }
 

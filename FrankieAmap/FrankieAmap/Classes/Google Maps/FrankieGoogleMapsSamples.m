@@ -7,19 +7,22 @@
 //
 
 #import "FrankieGoogleMapsSamples.h"
+#import "FrankieGoogleMapsBasicMapViewController.h"
+#import "FrankieGoogleMapsMyLocationViewController.h"
 
 @implementation FrankieGoogleMapsSamples
 
 + (NSArray *)loadSections {
 
-    return @[@"Map", @"Camera"];
+    return @[@"Map"];
     
 }
 
 + (NSArray *)loadDemos {
 
-//    NSArray *mapDemos = @[[self]];
-    return @[mapDemos, cameraDemos];
+    NSArray *mapDemos = @[[self newDemo:[FrankieGoogleMapsBasicMapViewController class] withTitle:@"Basic Map" andDescription:nil],
+                          [self newDemo:[FrankieGoogleMapsMyLocationViewController class] withTitle:@"My Location" andDescription:nil]];
+    return @[mapDemos];
     
 }
 
