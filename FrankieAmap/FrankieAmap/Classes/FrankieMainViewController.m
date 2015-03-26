@@ -27,6 +27,7 @@
     [super viewDidAppear:animated];
     self.mapView.showsCompass = NO;
     self.mapView.showsScale = NO;
+    self.mapView.scrollEnabled = NO;
     // UITapGestureRecognizer
     
 }
