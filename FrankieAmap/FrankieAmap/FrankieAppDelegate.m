@@ -82,10 +82,10 @@
     // Override point for customization after application launch.
     
     // 高德地图
-//    [self configureAMapAPIKey];
+    [self configureAMapAPIKey];
     
     // Google地图
-    [self configureGoogleMapsAPIKey];
+//    [self configureGoogleMapsAPIKey];
     
     return YES;
 }
