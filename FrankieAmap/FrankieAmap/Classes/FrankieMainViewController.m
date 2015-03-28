@@ -28,6 +28,7 @@
     self.mapView.showsCompass = NO;
     self.mapView.showsScale = NO;
     self.mapView.scrollEnabled = NO;
+    self.mapView.delegate = self;
 //    self.mapView.userLocation.coordinate = CLLocationCoordinate2DMake(31.0, 121.0);
     // UITapGestureRecognizer
     
@@ -39,6 +40,7 @@
     
     _mapView.mapType = MAMapTypeStandard;
 //    _mapView.userTrackingMode = MAUserTrackingModeFollow;
+    _mapView.delegate = self;
     _mapView.showsUserLocation = YES;
     _mapView.showsCompass = YES;
     _mapView.showsScale = YES;
