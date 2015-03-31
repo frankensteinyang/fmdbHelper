@@ -45,6 +45,7 @@
     _mapView.showsCompass = YES;
     _mapView.showsScale = YES;
     _mapView.centerCoordinate = CLLocationCoordinate2DMake(31.220032, 121.369915);
+//    _mapView.center
     
 }
 
@@ -56,7 +57,7 @@
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {
     
     if (updatingLocation) {
-        NSLog(@"Latitude : %f, Longitude: %f", userLocation.coordinate.latitude, userLocation.coordinate.longitude);
+//        NSLog(@"Latitude : %f, Longitude: %f", userLocation.coordinate.latitude, userLocation.coordinate.longitude);
     }
     
 }
