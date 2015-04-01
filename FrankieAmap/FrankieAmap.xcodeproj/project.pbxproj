@@ -179,6 +179,32 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		EF9BC8491ACC496400009A5D /* Third party libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EFF50B281AA03BCE00E3F484 /* libz.dylib */,
+				EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */,
+				EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */,
+				EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */,
+				EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */,
+				EFF50B201AA0258600E3F484 /* CoreTelephony.framework */,
+				EFF50B1E1AA0257B00E3F484 /* CoreLocation.framework */,
+				EFF50B1C1AA0256100E3F484 /* OpenGLES.framework */,
+				EFF50B1A1AA0255100E3F484 /* QuartzCore.framework */,
+				EFF50B181AA024ED00E3F484 /* Security.framework */,
+				EF6726D31ABAA59500896F14 /* GoogleMaps.framework */,
+				EF6726D11ABAA4ED00896F14 /* libicucore.dylib */,
+				EF6726CF1ABAA4D100896F14 /* libc++.dylib */,
+				EF6726CD1ABAA49E00896F14 /* ImageIO.framework */,
+				EF6726CB1ABAA49500896F14 /* GLKit.framework */,
+				EF6726C91ABAA47A00896F14 /* CoreText.framework */,
+				EF6726C71ABAA47000896F14 /* CoreData.framework */,
+				EF6726C51ABAA45100896F14 /* AVFoundation.framework */,
+				EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */,
+			);
+			name = "Third party libraries";
+			sourceTree = "<group>";
+		};
 		EFA1E9F91AC11F6400A7D365 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,25 +243,7 @@
 		EFF50AE21AA0037800E3F484 = {
 			isa = PBXGroup;
 			children = (
-				EF6726D31ABAA59500896F14 /* GoogleMaps.framework */,
-				EF6726D11ABAA4ED00896F14 /* libicucore.dylib */,
-				EF6726CF1ABAA4D100896F14 /* libc++.dylib */,
-				EF6726CD1ABAA49E00896F14 /* ImageIO.framework */,
-				EF6726CB1ABAA49500896F14 /* GLKit.framework */,
-				EF6726C91ABAA47A00896F14 /* CoreText.framework */,
-				EF6726C71ABAA47000896F14 /* CoreData.framework */,
-				EF6726C51ABAA45100896F14 /* AVFoundation.framework */,
-				EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */,
-				EFF50B281AA03BCE00E3F484 /* libz.dylib */,
-				EFF50B261AA03AF600E3F484 /* libstdc++.6.0.9.dylib */,
-				EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */,
-				EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */,
-				EFF50B221AA025A500E3F484 /* SystemConfiguration.framework */,
-				EFF50B201AA0258600E3F484 /* CoreTelephony.framework */,
-				EFF50B1E1AA0257B00E3F484 /* CoreLocation.framework */,
-				EFF50B1C1AA0256100E3F484 /* OpenGLES.framework */,
-				EFF50B1A1AA0255100E3F484 /* QuartzCore.framework */,
-				EFF50B181AA024ED00E3F484 /* Security.framework */,
+				EF9BC8491ACC496400009A5D /* Third party libraries */,
 				EFF50AED1AA0037800E3F484 /* FrankieAmap */,
 				EFF50B071AA0037800E3F484 /* FrankieAmapTests */,
 				EFF50AEC1AA0037800E3F484 /* Products */,

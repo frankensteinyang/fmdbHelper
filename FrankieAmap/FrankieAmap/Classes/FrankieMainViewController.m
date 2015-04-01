@@ -56,6 +56,7 @@
 
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {
     
+    NSLog(@"BUG:代理方法没有实现。FrankieMapHelper");
     if (updatingLocation) {
 //        NSLog(@"Latitude : %f, Longitude: %f", userLocation.coordinate.latitude, userLocation.coordinate.longitude);
     }
