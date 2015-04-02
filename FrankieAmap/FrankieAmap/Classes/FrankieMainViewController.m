@@ -63,6 +63,7 @@
     
 }
 
+// BUG定位，不走代理方法
 - (MAAnnotationView *)mapView:(MAMapView *)mapView viewForAnnotation:(id<MAAnnotation>)annotation {
 
     MAAnnotationView *userLocationView = (MAAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:@"userLocationView"];

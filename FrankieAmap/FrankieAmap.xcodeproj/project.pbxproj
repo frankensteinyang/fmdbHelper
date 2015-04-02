@@ -80,12 +80,12 @@
 		EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieCenterMapViewController.m; sourceTree = "<group>"; };
 		EF76D83F1AADF9D300524E91 /* FrankieAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAnnotationViewController.h; sourceTree = "<group>"; };
 		EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAnnotationViewController.m; sourceTree = "<group>"; };
-		EF81EE651ABFA83200193636 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		EF81EE651ABFA83200193636 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../GoogleMaps.bundle; sourceTree = "<group>"; };
 		EF81EE6A1ABFAC6900193636 /* FrankieAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieAppDelegate.h; sourceTree = "<group>"; };
 		EF81EE6B1ABFAC6900193636 /* FrankieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieAppDelegate.m; sourceTree = "<group>"; };
-		EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccuracyCircle.png; sourceTree = "<group>"; };
-		EF8655501AB870AB00DE31FA /* LocatingBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocatingBtn.png; sourceTree = "<group>"; };
-		EF8655511AB870AB00DE31FA /* UserLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserLocation.png; sourceTree = "<group>"; };
+		EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AccuracyCircle.png; path = ../AccuracyCircle.png; sourceTree = "<group>"; };
+		EF8655501AB870AB00DE31FA /* LocatingBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LocatingBtn.png; path = ../LocatingBtn.png; sourceTree = "<group>"; };
+		EF8655511AB870AB00DE31FA /* UserLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UserLocation.png; path = ../UserLocation.png; sourceTree = "<group>"; };
 		EF8FF8E41AA1A2FA00A1204F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		EF8FF8E81AA1A45600A1204F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		EF8FF8EA1AA1A49B00A1204F /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
@@ -277,10 +277,6 @@
 				EFF50AFB1AA0037800E3F484 /* Images.xcassets */,
 				EFF50AF81AA0037800E3F484 /* Main.storyboard */,
 				EFF50AFD1AA0037800E3F484 /* LaunchScreen.xib */,
-				EF81EE651ABFA83200193636 /* GoogleMaps.bundle */,
-				EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */,
-				EF8655501AB870AB00DE31FA /* LocatingBtn.png */,
-				EF8655511AB870AB00DE31FA /* UserLocation.png */,
 				EFF50AEF1AA0037800E3F484 /* Info.plist */,
 				EFF50AF01AA0037800E3F484 /* main.m */,
 			);
@@ -328,6 +324,10 @@
 		EFF50B2A1AA03E0C00E3F484 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EF81EE651ABFA83200193636 /* GoogleMaps.bundle */,
+				EF86554E1AB86F7A00DE31FA /* AccuracyCircle.png */,
+				EF8655501AB870AB00DE31FA /* LocatingBtn.png */,
+				EF8655511AB870AB00DE31FA /* UserLocation.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
