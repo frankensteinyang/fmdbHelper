@@ -9,6 +9,8 @@
 #import "FrankieMainViewController.h"
 #import <MAMapKit/MAMapKit.h>
 
+#define MAP_COORDINATE_SPAN         0.0265
+
 @interface FrankieMainViewController () <MAMapViewDelegate> {
 
     MAAnnotationView *_userLocationView;
@@ -39,13 +41,18 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     _mapView.mapType = MAMapTypeStandard;
-//    _mapView.userTrackingMode = MAUserTrackingModeFollow;
+    _mapView.userTrackingMode = MAUserTrackingModeFollow;
     _mapView.delegate = self;
-    _mapView.showsUserLocation = YES;
     _mapView.showsCompass = YES;
     _mapView.showsScale = YES;
     _mapView.centerCoordinate = CLLocationCoordinate2DMake(31.220032, 121.369915);
-//    _mapView.center
+    
+    
+    CLLocationCoordinate2D userLocation = CLLocationCoordinate2DMake(31.220032, 121.369915);
+    MACoordinateSpan span = MACoordinateSpanMake(MAP_COORDINATE_SPAN, MAP_COORDINATE_SPAN);
+    MACoordinateRegion region = {userLocation, span};
+    [_mapView setRegion:region animated:NO];
+    _mapView.showsUserLocation = YES;
     
 }
 
