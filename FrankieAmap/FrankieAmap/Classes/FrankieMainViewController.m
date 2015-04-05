@@ -96,4 +96,12 @@
     
 }
 
+- (void)mapView:(MAMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
+
+}
+
+- (void)mapView:(MAMapView *)mapView regionWillChangeAnimated:(BOOL)animated {
+
+}
+
 @end
