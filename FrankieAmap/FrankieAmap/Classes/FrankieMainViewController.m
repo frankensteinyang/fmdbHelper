@@ -104,4 +104,12 @@
 
 }
 
+- (void)mapViewDidStopLocatingUser:(MAMapView *)mapView {
+
+}
+
+- (void)mapViewWillStartLocatingUser:(MAMapView *)mapView {
+
+}
+
 @end
