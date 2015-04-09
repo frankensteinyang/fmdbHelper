@@ -112,4 +112,12 @@
 
 }
 
+- (void)mapView:(MAMapView *)mapView didAddAnnotationViews:(NSArray *)views {
+
+}
+
+- (void)mapView:(MAMapView *)mapView didChangeUserTrackingMode:(MAUserTrackingMode)mode animated:(BOOL)animated {
+
+}
+
 @end
