@@ -120,4 +120,12 @@
 
 }
 
+- (void)mapView:(MAMapView *)mapView didFailToLocateUserWithError:(NSError *)error {
+
+}
+
+- (void)mapView:(MAMapView *)mapView didSelectAnnotationView:(MAAnnotationView *)view {
+
+}
+
 @end
