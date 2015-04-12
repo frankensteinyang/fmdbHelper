@@ -104,6 +104,14 @@
     
 }
 
+- (void)mapView:(MAMapView *)mapView annotationView:(MAAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
+
+}
+
+- (void)mapView:(MAMapView *)mapView annotationView:(MAAnnotationView *)view didChangeDragState:(MAAnnotationViewDragState)newState fromOldState:(MAAnnotationViewDragState)oldState {
+
+}
+
 - (void)mapView:(MAMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
 
 }
