@@ -14,6 +14,14 @@
 
 @implementation FrankieLocationViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
