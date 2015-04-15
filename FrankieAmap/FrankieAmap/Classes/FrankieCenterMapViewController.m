@@ -10,4 +10,19 @@
 
 @implementation FrankieCenterMapViewController
 
+- (void)viewDidAppear:(BOOL)animated
+{
+
+}
+
+- (void)viewDidLoad
+{
+
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+
+}
+
 @end
