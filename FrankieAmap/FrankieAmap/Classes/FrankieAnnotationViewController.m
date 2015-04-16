@@ -10,4 +10,19 @@
 
 @implementation FrankieAnnotationViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+
+}
+
+- (void)viewDidLoad
+{
+
+}
+
 @end
