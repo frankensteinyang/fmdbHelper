@@ -52,6 +52,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [self createNavigationBar];
     _mapView.mapType = MAMapTypeStandard;
     _mapView.userTrackingMode = MAUserTrackingModeFollow;
     _mapView.delegate = self;
@@ -105,6 +106,16 @@
     if (userLocation) {
         NSLog(@"Latitude : %f, Longitude: %f", userLocation.coordinate.latitude, userLocation.coordinate.longitude);
     }
+    
+}
+
+/**
+ *  创建导航条
+ */
+- (void)createNavigationBar
+{
+    UINavigationController *naviC = [[UINavigationController alloc] init];
+    naviC.title = @"地图";
     
 }
 
