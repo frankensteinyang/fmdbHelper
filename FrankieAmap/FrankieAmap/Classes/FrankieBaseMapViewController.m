@@ -24,6 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+
+}
+
+- (void)viewDidLayoutSubviews
+{
+
+}
+
 /*
 #pragma mark - Navigation
 
