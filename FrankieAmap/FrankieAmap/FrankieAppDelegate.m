@@ -8,6 +8,7 @@
 
 #import "FrankieAppDelegate.h"
 #import "FrankieAMapAPIKey.h"
+#import "FrankieMainViewController.h"
 #import "FrankieGoogleMapsAPIKey.h"
 #import "FrankieGoogleMapsMainViewController.h"
 #import <MAMapKit/MAMapKit.h>
@@ -81,6 +82,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    FrankieMainViewController *mainVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"FrankieMainViewController"];
+    UINavigationController *rootController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     // 高德地图
     [self configureAMapAPIKey];
     
