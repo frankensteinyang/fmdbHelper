@@ -39,6 +39,8 @@
     FrankieMainViewController *mainVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"FrankieMainViewController"];
     UINavigationController *rootController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     
+    rootController.navigationBarHidden = YES;
+    
     [MAMapServices sharedServices].apiKey = (NSString *)APIKey;
     
 }
