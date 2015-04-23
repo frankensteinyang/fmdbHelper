@@ -45,7 +45,9 @@
 }
 
 - (void)awakeFromNib {
-
+    
+    NSLog(@"Frankenstein Yang!");
+    
 }
 
 - (void)viewDidLoad {
