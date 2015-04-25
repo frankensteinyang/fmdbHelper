@@ -22,12 +22,12 @@
 
 - (void)viewDidLoad
 {
-
+    NSLog(@"Frankenstein Yang!");
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-
+    NSLog(@"Frankenstein Yang!");
 }
 
 @end

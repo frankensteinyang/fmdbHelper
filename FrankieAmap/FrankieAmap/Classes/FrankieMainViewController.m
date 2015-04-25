@@ -37,10 +37,14 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    
+    NSLog(@"Frankenstein Yang!");
 
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
+    
+    NSLog(@"Frankenstein Yang!");
 
 }
 
