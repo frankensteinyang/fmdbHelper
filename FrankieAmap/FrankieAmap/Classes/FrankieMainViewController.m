@@ -106,6 +106,12 @@
     
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView      <#mapView description#>
+ *  @param userLocation <#userLocation description#>
+ */
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation {
 
     NSLog(@"BUG:代理方法没有实现。FrankieMapHelper");
@@ -125,6 +131,13 @@
     
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView <#mapView description#>
+ *  @param view    <#view description#>
+ *  @param control <#control description#>
+ */
 - (void)mapView:(MAMapView *)mapView annotationView:(MAAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
 
 }
