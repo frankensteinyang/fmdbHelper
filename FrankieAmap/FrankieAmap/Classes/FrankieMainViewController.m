@@ -142,6 +142,14 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView  <#mapView description#>
+ *  @param view     <#view description#>
+ *  @param newState <#newState description#>
+ *  @param oldState <#oldState description#>
+ */
 - (void)mapView:(MAMapView *)mapView annotationView:(MAAnnotationView *)view didChangeDragState:(MAAnnotationViewDragState)newState fromOldState:(MAAnnotationViewDragState)oldState {
 
 }
