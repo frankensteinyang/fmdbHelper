@@ -154,10 +154,22 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView  <#mapView description#>
+ *  @param animated <#animated description#>
+ */
 - (void)mapView:(MAMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView  <#mapView description#>
+ *  @param animated <#animated description#>
+ */
 - (void)mapView:(MAMapView *)mapView regionWillChangeAnimated:(BOOL)animated {
 
 }
