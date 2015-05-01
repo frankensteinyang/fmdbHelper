@@ -174,6 +174,11 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView <#mapView description#>
+ */
 - (void)mapViewDidStopLocatingUser:(MAMapView *)mapView {
 
 }
