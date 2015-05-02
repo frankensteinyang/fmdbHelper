@@ -183,6 +183,11 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView <#mapView description#>
+ */
 - (void)mapViewWillStartLocatingUser:(MAMapView *)mapView {
 
 }
