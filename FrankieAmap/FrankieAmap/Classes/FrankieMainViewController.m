@@ -192,10 +192,23 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView <#mapView description#>
+ *  @param views   <#views description#>
+ */
 - (void)mapView:(MAMapView *)mapView didAddAnnotationViews:(NSArray *)views {
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView  <#mapView description#>
+ *  @param mode     <#mode description#>
+ *  @param animated <#animated description#>
+ */
 - (void)mapView:(MAMapView *)mapView didChangeUserTrackingMode:(MAUserTrackingMode)mode animated:(BOOL)animated {
 
 }
