@@ -213,6 +213,12 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView <#mapView description#>
+ *  @param error   <#error description#>
+ */
 - (void)mapView:(MAMapView *)mapView didFailToLocateUserWithError:(NSError *)error {
 
 }
