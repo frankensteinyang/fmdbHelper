@@ -223,6 +223,12 @@
 
 }
 
+/**
+ *  <#Description#>
+ *
+ *  @param mapView <#mapView description#>
+ *  @param view    <#view description#>
+ */
 - (void)mapView:(MAMapView *)mapView didSelectAnnotationView:(MAAnnotationView *)view {
 
 }
