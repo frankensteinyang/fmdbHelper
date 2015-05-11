@@ -24,6 +24,11 @@
 
 @implementation FrankieMainViewController
 
+/**
+ *  <#Description#>
+ *
+ *  @param animated <#animated description#>
+ */
 - (void)viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:animated];
