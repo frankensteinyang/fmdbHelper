@@ -315,8 +315,8 @@
 				EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */,
 				EF76D83F1AADF9D300524E91 /* FrankieAnnotationViewController.h */,
 				EF76D8401AADF9D300524E91 /* FrankieAnnotationViewController.m */,
-				EF69AD341AAF4AAD00535676 /* FrankieCenterMapViewController.h */,
 				EF69AD351AAF4AAD00535676 /* FrankieCenterMapViewController.m */,
+				EF69AD341AAF4AAD00535676 /* FrankieCenterMapViewController.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
