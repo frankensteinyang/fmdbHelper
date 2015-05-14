@@ -32,6 +32,7 @@
 		EFA1E9F81AC11F3000A7D365 /* FrankieGoogleMapsSamples.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E9F51AC11F3000A7D365 /* FrankieGoogleMapsSamples.m */; };
 		EFA1E9FC1AC11FA500A7D365 /* FrankieGoogleMapsMyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E9FB1AC11FA500A7D365 /* FrankieGoogleMapsMyLocationViewController.m */; };
 		EFA1E9FF1AC120AD00A7D365 /* FrankieGoogleMapsBasicMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA1E9FE1AC120AD00A7D365 /* FrankieGoogleMapsBasicMapViewController.m */; };
+		EFC6A53A1B04F38C00A21B97 /* FrankieFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC6A5391B04F38C00A21B97 /* FrankieFMDBHelper.m */; };
 		EFDE25A71AB340A40050CCCA /* Frankie3DMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDE25A61AB340A40050CCCA /* Frankie3DMapHelper.m */; };
 		EFE75F571AA93BC70038ACCB /* FrankieMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE75F561AA93BC70038ACCB /* FrankieMainViewController.m */; };
 		EFF50AF11AA0037800E3F484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF50AF01AA0037800E3F484 /* main.m */; };
@@ -99,6 +100,8 @@
 		EFA1E9FB1AC11FA500A7D365 /* FrankieGoogleMapsMyLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieGoogleMapsMyLocationViewController.m; sourceTree = "<group>"; };
 		EFA1E9FD1AC120AD00A7D365 /* FrankieGoogleMapsBasicMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieGoogleMapsBasicMapViewController.h; sourceTree = "<group>"; };
 		EFA1E9FE1AC120AD00A7D365 /* FrankieGoogleMapsBasicMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieGoogleMapsBasicMapViewController.m; sourceTree = "<group>"; };
+		EFC6A5381B04F38C00A21B97 /* FrankieFMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieFMDBHelper.h; sourceTree = "<group>"; };
+		EFC6A5391B04F38C00A21B97 /* FrankieFMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrankieFMDBHelper.m; sourceTree = "<group>"; };
 		EFDE25A51AB340A40050CCCA /* Frankie3DMapHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frankie3DMapHelper.h; sourceTree = "<group>"; };
 		EFDE25A61AB340A40050CCCA /* Frankie3DMapHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frankie3DMapHelper.m; sourceTree = "<group>"; };
 		EFE75F551AA93BC70038ACCB /* FrankieMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrankieMainViewController.h; sourceTree = "<group>"; };
@@ -231,6 +234,15 @@
 			name = "Google Maps";
 			sourceTree = "<group>";
 		};
+		EFC6A5371B04F35200A21B97 /* DatabaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EFC6A5381B04F38C00A21B97 /* FrankieFMDBHelper.h */,
+				EFC6A5391B04F38C00A21B97 /* FrankieFMDBHelper.m */,
+			);
+			name = DatabaseHelper;
+			sourceTree = "<group>";
+		};
 		EFDE25A41AB3406B0050CCCA /* 3DMap */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +315,7 @@
 		EFF50B141AA01FA000E3F484 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EFC6A5371B04F35200A21B97 /* DatabaseHelper */,
 				EFBCE3951AB9D7D000B40DC2 /* Google Maps */,
 				EFDE25A41AB3406B0050CCCA /* 3DMap */,
 				EF1A77EA1AA75F0F004613E1 /* MapCommon */,
@@ -454,6 +467,7 @@
 				EF5AFA191AA8B0BE00DE14D6 /* FrankieMapManager.m in Sources */,
 				EF69AD361AAF4AAD00535676 /* FrankieCenterMapViewController.m in Sources */,
 				EFDE25A71AB340A40050CCCA /* Frankie3DMapHelper.m in Sources */,
+				EFC6A53A1B04F38C00A21B97 /* FrankieFMDBHelper.m in Sources */,
 				EFF68D791AA34D3C003B2991 /* FrankieLocationViewController.m in Sources */,
 				EFF50AF11AA0037800E3F484 /* main.m in Sources */,
 				EFA1E9FC1AC11FA500A7D365 /* FrankieGoogleMapsMyLocationViewController.m in Sources */,
