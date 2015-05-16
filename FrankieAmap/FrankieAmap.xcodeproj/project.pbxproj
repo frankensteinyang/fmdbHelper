@@ -747,7 +747,7 @@
 				);
 				IBSC_MODULE = FrankieAmap_WatchKit_Extension;
 				INFOPLIST_FILE = "FrankieAmap WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -764,7 +764,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = FrankieAmap_WatchKit_Extension;
 				INFOPLIST_FILE = "FrankieAmap WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -922,6 +922,7 @@
 				EFB5D91A1B0594AA00418389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFB5D91C1B0594AA00418389 /* Build configuration list for PBXNativeTarget "FrankieAmap WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -930,6 +931,7 @@
 				EFB5D9181B0594AA00418389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFF50AE61AA0037800E3F484 /* Build configuration list for PBXProject "FrankieAmap" */ = {
 			isa = XCConfigurationList;
