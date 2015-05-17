@@ -23,7 +23,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="347"/>
+            <point key="canvasLocation" x="230" y="347"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="k6c-pE-d3Q">
@@ -37,10 +37,22 @@
                                 </tableRow>
                             </items>
                         </table>
+                        <button width="1" alignment="left" title="Button" id="Ozt-iI-nua">
+                            <connections>
+                                <segue destination="4lo-NX-92Q" kind="push" id="1wn-Is-kXd"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="477" y="342"/>
+            <point key="canvasLocation" x="431" y="347"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="nQP-wU-Vd2">
+            <objects>
+                <controller id="4lo-NX-92Q"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="347"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
