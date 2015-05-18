@@ -32,6 +32,11 @@
     [super didDeactivate];
 }
 
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex
+{
+
+}
+
 @end
 
 
