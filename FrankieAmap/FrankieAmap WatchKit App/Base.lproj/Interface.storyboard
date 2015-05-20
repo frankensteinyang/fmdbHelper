@@ -59,6 +59,7 @@
                                 </tableRow>
                             </items>
                         </table>
+                        <button width="1" alignment="left" title="Button" id="ZHr-9L-Xuh"/>
                     </items>
                 </controller>
             </objects>
