@@ -59,11 +59,22 @@
                                 </tableRow>
                             </items>
                         </table>
-                        <button width="1" alignment="left" title="Button" id="ZHr-9L-Xuh"/>
+                        <button width="1" alignment="left" title="Push" id="ZHr-9L-Xuh">
+                            <connections>
+                                <segue destination="eUP-4R-kuY" kind="push" id="GcW-Ge-KrF"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="594" y="347"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="IhB-Ir-BkF">
+            <objects>
+                <controller id="eUP-4R-kuY"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="638"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
