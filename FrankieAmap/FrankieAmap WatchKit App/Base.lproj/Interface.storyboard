@@ -72,7 +72,11 @@
         <!--Interface Controller-->
         <scene sceneID="IhB-Ir-BkF">
             <objects>
-                <controller id="eUP-4R-kuY"/>
+                <controller id="eUP-4R-kuY">
+                    <items>
+                        <button width="1" alignment="left" title="Push" id="dzI-XV-VcJ"/>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="594" y="638"/>
         </scene>
