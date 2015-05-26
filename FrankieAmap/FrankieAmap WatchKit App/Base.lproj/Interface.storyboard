@@ -74,11 +74,26 @@
             <objects>
                 <controller id="eUP-4R-kuY">
                     <items>
-                        <button width="1" alignment="left" title="Push" id="dzI-XV-VcJ"/>
+                        <button width="1" alignment="left" title="Push" id="dzI-XV-VcJ">
+                            <connections>
+                                <segue destination="fuL-O6-TU3" kind="push" id="YJu-gs-FcW"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="594" y="638"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aay-Gf-l7a">
+            <objects>
+                <controller id="fuL-O6-TU3">
+                    <items>
+                        <imageView alignment="left" id="f38-oH-vRb"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="789" y="640"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
