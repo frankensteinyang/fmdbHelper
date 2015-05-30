@@ -85,11 +85,34 @@
             <point key="canvasLocation" x="594" y="638"/>
         </scene>
         <!--Interface Controller-->
+        <scene sceneID="1gM-Yn-Rtu">
+            <objects>
+                <controller id="XBz-gt-cml">
+                    <items>
+                        <table alignment="left" id="Xab-LG-d16">
+                            <items>
+                                <tableRow id="9hp-9g-rVa">
+                                    <group key="rootItem" width="1" alignment="left" id="vMd-R4-Bnb"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <imageView alignment="left" id="3cX-wX-f6m"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="893" y="396"/>
+        </scene>
+        <!--Interface Controller-->
         <scene sceneID="aay-Gf-l7a">
             <objects>
                 <controller id="fuL-O6-TU3">
                     <items>
                         <imageView alignment="left" id="f38-oH-vRb"/>
+                        <button width="1" alignment="left" title="Button" id="SCB-tF-s2s">
+                            <connections>
+                                <segue destination="XBz-gt-cml" kind="push" id="3pK-vz-cto"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
