@@ -97,6 +97,11 @@
                             </items>
                         </table>
                         <imageView alignment="left" id="3cX-wX-f6m"/>
+                        <button width="1" alignment="left" title="Button" id="GlU-Lt-bRQ">
+                            <connections>
+                                <segue destination="beI-bB-hui" kind="push" id="3Na-Ap-Piv"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -117,6 +122,17 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="789" y="640"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="zgX-WL-fPI">
+            <objects>
+                <controller id="beI-bB-hui">
+                    <items>
+                        <imageView alignment="left" id="ESG-xZ-wJD"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1039" y="626"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
