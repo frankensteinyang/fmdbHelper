@@ -108,6 +108,13 @@
             <point key="canvasLocation" x="893" y="396"/>
         </scene>
         <!--Interface Controller-->
+        <scene sceneID="Y2T-2w-eB8">
+            <objects>
+                <controller id="e4s-hK-ERI"/>
+            </objects>
+            <point key="canvasLocation" x="1129" y="345"/>
+        </scene>
+        <!--Interface Controller-->
         <scene sceneID="aay-Gf-l7a">
             <objects>
                 <controller id="fuL-O6-TU3">
@@ -129,6 +136,11 @@
                 <controller id="beI-bB-hui">
                     <items>
                         <imageView alignment="left" id="ESG-xZ-wJD"/>
+                        <button width="1" alignment="left" title="Modal" id="0z6-Bf-vWh">
+                            <connections>
+                                <segue destination="e4s-hK-ERI" kind="modal" id="asw-Wi-0be"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
