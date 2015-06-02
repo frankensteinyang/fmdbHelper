@@ -110,9 +110,28 @@
         <!--Interface Controller-->
         <scene sceneID="Y2T-2w-eB8">
             <objects>
-                <controller id="e4s-hK-ERI"/>
+                <controller id="e4s-hK-ERI">
+                    <items>
+                        <button width="1" alignment="left" title="Push" id="waG-UF-yxb">
+                            <connections>
+                                <segue destination="PL1-8K-xPz" kind="push" id="Vb1-5K-bHz"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="1129" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="gBX-yF-5h3">
+            <objects>
+                <controller id="PL1-8K-xPz">
+                    <items>
+                        <imageView alignment="left" id="xdr-jD-vnC"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1299" y="359"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aay-Gf-l7a">
