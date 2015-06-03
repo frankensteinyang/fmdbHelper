@@ -8,11 +8,9 @@
 
 #import "GlanceController.h"
 
-
 @interface GlanceController()
 
 @end
-
 
 @implementation GlanceController
 

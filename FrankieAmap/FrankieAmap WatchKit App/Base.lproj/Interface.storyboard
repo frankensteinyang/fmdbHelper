@@ -117,6 +117,11 @@
                                 <segue destination="PL1-8K-xPz" kind="push" id="Vb1-5K-bHz"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Modal" id="2nC-UD-giX">
+                            <connections>
+                                <segue destination="PL1-8K-xPz" kind="modal" id="Uwi-8O-hcu"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -131,7 +136,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1299" y="359"/>
+            <point key="canvasLocation" x="1375" y="363"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aay-Gf-l7a">
@@ -204,5 +209,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="PbA-W6-bow"/>
+        <segue reference="Vb1-5K-bHz"/>
     </inferredMetricsTieBreakers>
 </document>
