@@ -20,6 +20,7 @@
                                 <segue destination="Go2-7M-ytj" kind="modal" id="IcT-Dt-vTO"/>
                             </connections>
                         </button>
+                        <imageView alignment="left" id="g9w-2S-6fi"/>
                     </items>
                 </controller>
             </objects>
@@ -42,6 +43,7 @@
                                 <segue destination="4lo-NX-92Q" kind="push" id="1wn-Is-kXd"/>
                             </connections>
                         </button>
+                        <imageView alignment="left" id="RXA-cl-IcM"/>
                     </items>
                 </controller>
             </objects>
@@ -64,6 +66,7 @@
                                 <segue destination="eUP-4R-kuY" kind="push" id="GcW-Ge-KrF"/>
                             </connections>
                         </button>
+                        <imageView alignment="left" id="CbP-4k-TBE"/>
                     </items>
                 </controller>
             </objects>
