@@ -131,6 +131,8 @@
                                 <segue destination="PL1-8K-xPz" kind="modal" id="Uwi-8O-hcu"/>
                             </connections>
                         </button>
+                        <separator alignment="left" id="csF-MQ-8hy"/>
+                        <group width="1" alignment="left" id="ixu-H6-MvO"/>
                     </items>
                 </controller>
             </objects>
@@ -158,6 +160,7 @@
                                 <segue destination="XBz-gt-cml" kind="push" id="3pK-vz-cto"/>
                             </connections>
                         </button>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="TYJ-vw-eWF"/>
                     </items>
                 </controller>
             </objects>
@@ -174,6 +177,7 @@
                                 <segue destination="e4s-hK-ERI" kind="modal" id="asw-Wi-0be"/>
                             </connections>
                         </button>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="EyN-76-mR9"/>
                     </items>
                 </controller>
             </objects>
