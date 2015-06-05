@@ -21,6 +21,10 @@
                             </connections>
                         </button>
                         <imageView alignment="left" id="g9w-2S-6fi"/>
+                        <dateLabel alignment="left" id="MEW-RV-Ga4">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
                     </items>
                 </controller>
             </objects>
@@ -44,6 +48,7 @@
                             </connections>
                         </button>
                         <imageView alignment="left" id="RXA-cl-IcM"/>
+                        <timer alignment="left" id="atB-EO-YIc"/>
                     </items>
                 </controller>
             </objects>
@@ -82,6 +87,7 @@
                                 <segue destination="fuL-O6-TU3" kind="push" id="YJu-gs-FcW"/>
                             </connections>
                         </button>
+                        <map height="100" alignment="left" id="w2Q-ea-8uh"/>
                     </items>
                 </controller>
             </objects>
