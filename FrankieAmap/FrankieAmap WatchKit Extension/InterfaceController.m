@@ -20,21 +20,24 @@
     [super awakeWithContext:context];
     
     // Configure interface objects here.
+    NSLog(@"Frankenstein------------1");
 }
 
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
+    NSLog(@"Frankenstein------------2");
 }
 
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
+    NSLog(@"Frankenstein------------3");
 }
 
 - (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex
 {
-
+    NSLog(@"Frankenstein------------4");
 }
 
 @end
