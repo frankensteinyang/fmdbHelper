@@ -144,6 +144,8 @@
                 <controller id="PL1-8K-xPz">
                     <items>
                         <imageView alignment="left" id="xdr-jD-vnC"/>
+                        <imageView alignment="left" id="tnK-3z-3E0"/>
+                        <imageView alignment="left" image="AccuracyCircle.png" id="J9Y-G9-L6R"/>
                     </items>
                 </controller>
             </objects>
