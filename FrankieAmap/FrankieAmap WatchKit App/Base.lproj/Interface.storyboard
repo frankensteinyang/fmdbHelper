@@ -20,7 +20,7 @@
                                 <segue destination="Go2-7M-ytj" kind="modal" id="IcT-Dt-vTO"/>
                             </connections>
                         </button>
-                        <imageView alignment="left" id="g9w-2S-6fi"/>
+                        <imageView alignment="left" image="ic_compass_needle.png" id="g9w-2S-6fi"/>
                         <dateLabel alignment="left" id="MEW-RV-Ga4">
                             <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
                             <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
