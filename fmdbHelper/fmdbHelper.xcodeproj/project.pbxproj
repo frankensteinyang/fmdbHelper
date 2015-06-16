@@ -14,6 +14,7 @@
 		EF9570291B30752500CED315 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9570281B30752500CED315 /* Images.xcassets */; };
 		EF95702C1B30752500CED315 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF95702A1B30752500CED315 /* LaunchScreen.xib */; };
 		EF9570381B30752500CED315 /* fmdbHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9570371B30752500CED315 /* fmdbHelperTests.m */; };
+		EF9570441B307A4200CED315 /* JZFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9570431B307A4200CED315 /* JZFMDBHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EF9570311B30752500CED315 /* fmdbHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fmdbHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9570361B30752500CED315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF9570371B30752500CED315 /* fmdbHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fmdbHelperTests.m; sourceTree = "<group>"; };
+		EF9570421B307A4200CED315 /* JZFMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFMDBHelper.h; sourceTree = "<group>"; };
+		EF9570431B307A4200CED315 /* JZFMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZFMDBHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		EF95701A1B30752500CED315 /* fmdbHelper */ = {
 			isa = PBXGroup;
 			children = (
+				EF9570411B3079C900CED315 /* fmdbHelper */,
 				EF95701F1B30752500CED315 /* AppDelegate.h */,
 				EF9570201B30752500CED315 /* AppDelegate.m */,
 				EF9570221B30752500CED315 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				EF9570361B30752500CED315 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF9570411B3079C900CED315 /* fmdbHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EF9570421B307A4200CED315 /* JZFMDBHelper.h */,
+				EF9570431B307A4200CED315 /* JZFMDBHelper.m */,
+			);
+			path = fmdbHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				EF9570241B30752500CED315 /* ViewController.m in Sources */,
 				EF9570211B30752500CED315 /* AppDelegate.m in Sources */,
+				EF9570441B307A4200CED315 /* JZFMDBHelper.m in Sources */,
 				EF95701E1B30752500CED315 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
