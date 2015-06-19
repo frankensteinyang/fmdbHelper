@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"TEXT", @"NAME", nil];
-    [JZFMDBHelper createTable:t_Jinzhong withSqlParamDict:dict];
+    [JZFMDBHelper createTable:@"t_Jinzhong" withSqlParamDict:dict];
     
 }
 
