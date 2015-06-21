@@ -27,4 +27,8 @@
 
 }
 
++ (void)insertIntoTable:(NSString *)tableName withTableMap:(NSDictionary *)tableMap {
+
+}
+
 @end
