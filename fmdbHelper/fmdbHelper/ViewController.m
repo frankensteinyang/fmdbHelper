@@ -19,14 +19,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"TEXT", @"NAME", nil];
-    [JZFMDBHelper createTable:@"Frankenstein" withSqlParamDict:dict];
+    // 测试
+//    [self record];
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)record {
+
+    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:@"TEXT", @"NAME", nil];
+    [JZFMDBHelper createTable:@"Frankenstein" withSqlParamDict:dict];
+    
 }
 
 @end
